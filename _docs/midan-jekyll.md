@@ -5,7 +5,7 @@ categories: docs
 platform: Jekyll
 ---
 
-Current Version: 1.1.3 - 5 Jan 2017
+Current Version: 1.1.4 - 5 September 2017
 
 ---
 
