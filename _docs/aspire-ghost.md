@@ -185,69 +185,103 @@ You can read more about [Subscribers](http://support.ghost.org/subscribers-beta/
 
 ### Social Media Links
 
-Social media links are placed in different places (files):
+Social media links are placed in 3 different places (files):
 
 * `partials/footer.hbs`
-* `partials/header.hbs`
+* `partials/social-nav.hbs`
 * `partials/sidebar/widget-social.hbs`
 
-Ghost 0.8.0 supports adding Facebook and Twitter profile URLs from the admin panel, go to **Settings > General** and add your URLs, and this will update the Facebook and Twitter URLs in the locations mentioned above, other social media URLs you can add it from the files.
+Ghost supports adding Facebook and Twitter profile URLs from the admin panel, go to **General > Social accounts** and add your URLs, and this will update the Facebook and Twitter URLs within the 3 locations mentioned above.
 
-The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
+![social-accounts](/images/docs/ghost/shared/social-accounts.png)
+
+For using other social accounts, the theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 
 Twitter
 
-{% highlight html %}
-<span data-icon="ei-sc-twitter" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-twitter' data-size='s'></span>
+```
 
 Facebook
 
-{% highlight html %}
-<span data-icon="ei-sc-facebook" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-facebook' data-size='s'></span>
+```
 
 Instagram
 
-{% highlight html %}
-<span data-icon="ei-sc-instagram" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-instagram' data-size='s'></span>
+```
 
 Pinterest
 
-{% highlight html %}
-<span data-icon="ei-sc-pinterest" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-pinterest' data-size='s'></span>
+```
 
 Vimeo
 
-{% highlight html %}
-<span data-icon="ei-sc-vimeo" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-vimeo' data-size='s'></span>
+```
 
 Google Plus
 
-{% highlight html %}
-<span data-icon="ei-sc-google-plus" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-google-plus' data-size='s'></span>
+```
 
-Soundcloud
+SoundCloud
 
-{% highlight html %}
-<span data-icon="ei-sc-soundcloud" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-soundcloud' data-size='s'></span>
+```
 
 Tumblr
 
-{% highlight html %}
-<span data-icon="ei-sc-tumblr" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-tumblr' data-size='s'></span>
+```
 
 Youtube
 
-{% highlight html %}
-<span data-icon="ei-sc-youtube" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-youtube' data-size='s'></span>
+```
+
+To edit or update other excisted social links, let's take an example from `partials/social-nav.hbs` file, for exmaple, the Instagram code block:
+
+```html
+<li class='c-widget-social__item'>
+  <a href='Instagram URL' class='c-widget-social__link' target='_blank'>
+    <span data-icon='ei-sc-instagram' class='c-widget-social__icon' data-size='s'></span>
+  </a>
+</li>
+```
+
+The code above contains the ICON code from the above list, the social media link (`a`) within a list element (`li`).
+
+Next, replace your Instagram full URL with the link `href` value so if your Instagram URL is:
+
+```html
+https://www.instagram.com/ghost/
+```
+
+the new code will be:
+
+```html
+<li class='c-widget-social__item'>
+  <a href='https://www.instagram.com/ghost/' class='c-widget-social__link' target='_blank'>
+    <span data-icon='ei-sc-instagram' class='c-widget-social__icon' data-size='s'></span>
+  </a>
+</li>
+```
+
+If you want to completly remove Instagram, you can delete all the code block, the `li`, `a`, and the icon.
+
+This concept is applied to all the custom icon list available in the 3 social media places.
 
 ---
 

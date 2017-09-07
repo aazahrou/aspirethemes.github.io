@@ -220,7 +220,7 @@ Google Plus
 <span data-icon="ei-sc-google-plus" data-size="s"></span>
 {% endhighlight %}
 
-Soundcloud
+SoundCloud
 
 {% highlight html %}
 <span data-icon="ei-sc-soundcloud" data-size="s"></span>

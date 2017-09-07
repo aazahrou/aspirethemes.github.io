@@ -6,7 +6,7 @@ categories: docs
 platform: Ghost
 ---
 
-Current Version: 1.0.0 - 25 August 2017
+Current Version: 1.0.2 - 6 September 2017
 
 ---
 
@@ -154,7 +154,7 @@ To integrate Google Analytics, I would recommend reading [How do I add Google An
 
 Ghost supports adding Facebook and Twitter profile URLs from the admin panel, go to **General > Social accounts** and add your URLs, and this will update the Facebook and Twitter URLs in the blog footer.
 
-![social-accounts](/images/docs/ghost/dahab/social-accounts.png)
+![social-accounts](/images/docs/ghost/shared/social-accounts.png)
 
 If you want to add more static social media links, you can open directly add them in: `partials/social-nav.hbs` file.
 
@@ -196,7 +196,7 @@ Google Plus
 <span data-icon="ei-sc-google-plus" data-size="s"></span>
 {% endhighlight %}
 
-Soundcloud
+SoundCloud
 
 {% highlight html %}
 <span data-icon="ei-sc-soundcloud" data-size="s"></span>
