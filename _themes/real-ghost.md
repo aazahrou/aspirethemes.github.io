@@ -6,7 +6,7 @@ date:         2016-5-23
 thumbnail:    images/themes/ghost/real/preview.png
 price:        29
 categories:   themes
-type:         ghost
+type:         Ghost
 body-class:   is-theme
 demo:         http://real.aspirethemes.com/
 docs:         /docs/real-ghost

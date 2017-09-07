@@ -6,7 +6,7 @@ date:         2016-4-28
 thumbnail:    images/themes/wordpress/east/preview.png
 price:        49
 categories:   themes
-type:         wordpress
+type:         WordPress
 body-class:   is-theme
 demo:         http://east-wordpress.aspirethemes.com/
 docs:         /docs/east-wordpress

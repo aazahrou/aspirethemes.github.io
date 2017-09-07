@@ -6,7 +6,7 @@ date:         2016-2-23
 thumbnail:    images/themes/ghost/magaz/preview.png
 price:        29
 categories:   themes
-type:         ghost
+type:         Ghost
 body-class:   is-theme
 demo:         http://magaz.aspirethemes.com/
 docs:         /docs/magaz-ghost

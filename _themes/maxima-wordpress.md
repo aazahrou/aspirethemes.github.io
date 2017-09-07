@@ -6,7 +6,7 @@ date:         2017-1-14
 thumbnail:    images/themes/wordpress/maxima/preview.png
 price:        49
 categories:   themes
-type:         wordpress
+type:         WordPress
 body-class:   is-theme
 demo:         http://maxima-wordpress.aspirethemes.com/
 docs:         /docs/maxima-wordpress

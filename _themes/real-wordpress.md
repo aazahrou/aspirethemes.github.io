@@ -6,7 +6,7 @@ date:         2016-10-28
 thumbnail:    images/themes/wordpress/real/preview.png
 price:        49
 categories:   themes
-type:         wordpress
+type:         WordPress
 body-class:   is-theme
 demo:         http://real-wordpress.aspirethemes.com/
 docs:         /docs/real-wordpress

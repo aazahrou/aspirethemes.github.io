@@ -6,7 +6,7 @@ date:         2016-12-5
 thumbnail:    images/themes/ghost/maxima/preview.png
 price:        39
 categories:   themes
-type:         ghost
+type:         Ghost
 body-class:   is-theme
 demo:         http://maxima.aspirethemes.com/
 docs:         /docs/maxima-ghost

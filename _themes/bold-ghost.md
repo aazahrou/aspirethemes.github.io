@@ -6,7 +6,7 @@ date:         2017-4-8
 thumbnail:    images/themes/ghost/bold/preview.png
 price:        39
 categories:   themes
-type:         ghost
+type:         Ghost
 body-class:   is-theme
 demo:         http://bold.aspirethemes.com/
 docs:         /docs/bold-ghost

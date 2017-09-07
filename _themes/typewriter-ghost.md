@@ -1,11 +1,11 @@
 ---
 layout:       theme
-name:         TypeWriter - Ghost
+name:         TypeWriter
 title:        TypeWriter
 date:         2015-12-20
 thumbnail:    images/themes/ghost/typewriter/preview.png
 categories:   themes
-type:         ghost
+type:         Ghost
 body-class:   is-theme
 demo:         http://typewriter.aspirethemes.com/
 purchase:     https://github.com/aspirethemes/typewriter

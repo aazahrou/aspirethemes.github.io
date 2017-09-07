@@ -6,7 +6,7 @@ date:         2016-9-25
 thumbnail:    images/themes/jekyll/maxima/preview.png
 price:        29
 categories:   themes
-type:         jekyll
+type:         Jekyll
 body-class:   is-theme
 demo:         http://maxima-jekyll.aspirethemes.com/
 docs:         /docs/maxima-jekyll

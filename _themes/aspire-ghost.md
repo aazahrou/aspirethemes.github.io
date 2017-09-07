@@ -6,7 +6,7 @@ date:         2015-12-24
 thumbnail:    images/themes/ghost/aspire/preview.png
 price:        39
 categories:   themes
-type:         ghost
+type:         Ghost
 body-class:   is-theme
 demo:         http://aspire.aspirethemes.com/
 docs:         /docs/aspire-ghost

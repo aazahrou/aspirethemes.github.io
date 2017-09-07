@@ -6,7 +6,7 @@ date:         2017-5-9
 thumbnail:    images/themes/jekyll/aspire/preview.png
 price:        29
 categories:   themes
-type:         jekyll
+type:         Jekyll
 body-class:   is-theme
 demo:         http://aspire-jekyll.aspirethemes.com/
 docs:         /docs/maxima-jekyll

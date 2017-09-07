@@ -6,7 +6,7 @@ date:         2016-8-25
 thumbnail:    images/themes/jekyll/east/preview.png
 price:        29
 categories:   themes
-type:         jekyll
+type:         Jekyll
 body-class:   is-theme
 demo:         http://east-jekyll.aspirethemes.com/
 docs:         /docs/east-jekyll

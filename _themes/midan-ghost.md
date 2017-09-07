@@ -1,12 +1,12 @@
 ---
 layout:       theme
-name:         Midan – Ghost
+name:         Midan
 title:        Midan
 date:         2016-5-23
 thumbnail:    images/themes/ghost/midan/preview.png
 price:        29
 categories:   themes
-type:         ghost
+type:         Ghost
 body-class:   is-theme
 demo:         http://midan.aspirethemes.com/
 docs:         /docs/midan-ghost

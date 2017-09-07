@@ -1,11 +1,11 @@
 ---
 layout:       theme
-name:         Magaz - WordPress
+name:         Magaz
 title:        Magaz
 date:         2016-5-17
 thumbnail:    images/themes/wordpress/magaz/preview.png
 categories:   themes
-type:         wordpress
+type:         WordPress
 body-class:   is-theme
 demo:         http://magaz-wordpress.aspirethemes.com/
 docs:         /docs/magaz-wordpress

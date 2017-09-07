@@ -6,7 +6,7 @@ date:         2016-2-6
 thumbnail:    images/themes/ghost/east/preview.png
 price:        29
 categories:   themes
-type:         ghost
+type:         Ghost
 body-class:   is-theme
 demo:         http://east.aspirethemes.com/
 docs:         /docs/east-ghost

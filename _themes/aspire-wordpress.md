@@ -6,7 +6,7 @@ date:         2016-3-23
 thumbnail:    images/themes/wordpress/aspire/preview.png
 price:        49
 categories:   themes
-type:         wordpress
+type:         WordPress
 body-class:   is-theme
 demo:         http://aspire-wordpress.aspirethemes.com/
 docs:         /docs/aspire-wordpress
