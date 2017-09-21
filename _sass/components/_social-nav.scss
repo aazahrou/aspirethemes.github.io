@@ -21,6 +21,10 @@
 
       line-height: 0;
     }
+
+    @include mq($until: tablet) {
+      width: $base-spacing-unit + quarter($base-spacing-unit);
+    }
   }
 
   &__icon {
