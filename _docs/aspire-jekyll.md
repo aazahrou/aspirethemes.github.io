@@ -1,7 +1,6 @@
 ---
 layout: doc
 title: Aspire
-status: review
 categories: docs
 platform: Jekyll
 ---

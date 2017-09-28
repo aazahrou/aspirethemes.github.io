@@ -6,7 +6,7 @@ categories: docs
 platform: Jekyll
 ---
 
-Current Version: Coming soon ...
+Current Version: 1.0.0 - 22 September 2017
 
 ---
 
@@ -31,7 +31,8 @@ Dahab theme comes with different customizations in the `_config.yml` file:
 # Site settings
 title:              Dahab
 logo:               # Logo image URL
-description:        Thoughts, Stories and Ideas.
+cover_image:        'http://dahab.aspirethemes.com/content/images/2017/08/sarah-dorweiler-123483-1-1.jpg'
+description:        "<h2>Thoughts, Stories and Ideas.</h2>"
 baseurl:            '' # The subpath of your site, e.g. /blog
 url:                'http://dahab-jekyll.aspirethemes.com' # The base hostname & protocol for your site
 twitter:            https://twitter.com/aspirethemes
@@ -40,7 +41,7 @@ instagram:          https://www.instagram.com/aspirethemes
 
 markdown:  kramdown
 permalink: pretty
-paginate:  9
+paginate:  6
 sass:
   style: compressed
 
@@ -71,13 +72,13 @@ defaults:
 # Authors
 authors:
   ahmad:
-    name:             Ahmad Ajmi
-    bio:              Author & developer of Aspire Themes. Minimalist. I love creating clean and minimal websites.Technical writer at SitePoint.
-    gravatar:         https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
-    email:            info@aspirethemes.com
-    website:          http://aspirethemes.com
-    github_username:  ahmadajmi
-    twitter_username: ahmadajmi
+    name:     Ahmad Ajmi
+    bio:      Author & developer of Aspire Themes. Minimalist. I love creating clean and minimal websites.Technical writer at SitePoint.
+    gravatar: https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
+    email:    info@aspirethemes.com
+    website:  http://aspirethemes.com
+    github:   https://github.com/aspirethemes
+    twitter:  https://twitter.com/aspirethemes
 {% endhighlight %}
 
 ---
@@ -143,7 +144,7 @@ Things you can change are: `title` and `image` path.
 
 ### Navigation
 
-The navigation on the sidebar will automatically include all the links to the pages you have created.
+The navigation on the header will automatically include all the links to the pages you have created.
 
 ---
 
@@ -154,7 +155,7 @@ Dahab Theme comes with Disqus comments enabled.
 Open `_includes/disqus.html` file, and change the `aspirethemes` value on line 15 with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
 
 {% highlight js %}
-s.src = '//aspirethemes-demo.disqus.com/embed.js';
+s.src = '//aspirethemes-demos.disqus.com/embed.js';
 {% endhighlight %}
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
@@ -178,8 +179,6 @@ To integrate Google Analytics, open `_includes/analytics.html`, and add your Goo
 Social media links are placed in:
 
 * `_includes/social-nav.html`
-* `_includes/sidebar/widget-social.html`
-* `_includes/footer.html`
 
 The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. The following is a list of the social media icons to use:
 
