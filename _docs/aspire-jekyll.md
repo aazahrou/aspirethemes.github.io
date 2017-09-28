@@ -6,7 +6,7 @@ categories: docs
 platform: Jekyll
 ---
 
-Current Version: 1.0.0 - 8 May 2017
+Current Version: 1.0.1 - 28 Sept 2017
 
 ---
 
@@ -16,6 +16,8 @@ Current Version: 1.0.0 - 8 May 2017
 * [Pages](#pages)
 * [Navigation](#navigation)
 * [Disqus Comments](#disqus-comments)
+* [Twitter](#twitter)
+* [Instagram](#instagram)
 * [Google Analytics](#google-analytics)
 * [Social Media Links](#social-media-links)
 * [Update favicon](#update-favicon)
@@ -154,7 +156,7 @@ Aspire Theme comes with Disqus comments enabled.
 Open `_includes/disqus.html` file, and change the `aspirethemes` value on line 15 with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
 
 {% highlight js %}
-s.src = '//aspirethemes-demo.disqus.com/embed.js';
+s.src = '//aspirethemes-demos.disqus.com/embed.js';
 {% endhighlight %}
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
@@ -166,6 +168,47 @@ s.src = '//exampleone.disqus.com/embed.js';
 That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
 
 And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
+
+---
+
+### Twitter
+
+To set up the Twitter feed:
+
+* Go to [publish.twitter.com](https://publish.twitter.com/).
+* Enter a Twitter URl into the input box and press *Enter*.
+* Select *Embedded Timeline*.
+* You will see a Timeline preview and you can customize it as required.
+* Copy the code by clicking the *Copy Code* button.
+* Open `_includes/sidebar/widget-twitter.html` file and replace line **4** with the copied code.
+* Save and you are done.
+
+<script src="//fast.wistia.com/embed/medias/yny59lxsto.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:55.31% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_yny59lxsto videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+
+---
+
+### Instagram
+
+The Instagram feed is working using [Instafeed.js](http://instafeedjs.com/) to show the photos.
+
+First, you will need to get your account `userId` and `accessToken` from the following URLs:
+
+- userId: [smashballoon.com/instagram-feed/find-instagram-user-id](https://smashballoon.com/instagram-feed/find-instagram-user-id/)
+- accessToken: [instagram.pixelunion.net](http://instagram.pixelunion.net/)
+
+Second, open the `js/app.js` file and replace the `userId` and `accessToken` values.
+
+```js
+var instagramFeed = new Instafeed({
+  get: 'user',
+  limit: 9,
+  resolution: 'thumbnail',
+  userId: '',
+  accessToken: ''
+});
+```
+
+You can control how much images to show by changing the `limit` number. Theme default is set to `9` images.
 
 ---
 

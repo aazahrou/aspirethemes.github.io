@@ -121,7 +121,7 @@ Second, open the `assets/js/instagram.js` file and replace the `userId` and `acc
 var instagramFeed = new Instafeed({
   get: 'user',
   limit: 9,
-  resolution: 'standard_resolution',
+  resolution: 'thumbnail',
   userId: '',
   accessToken: ''
 });
