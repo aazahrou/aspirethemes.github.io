@@ -50,7 +50,7 @@ Also, you can follow the follwing steps to install the theme:
 
 Public API is important for some functionality like search, tags page, and subscribe form to work properly. You can enable the Public API from Ghost admin. Go to `Labs > Beta features` section and check the *Public API* mark to enable it.
 
-![enable-public-api](/images/docs/ghost/bold/subscribers-enable.png)
+![enable-public-api](/images/docs/ghost/shared/beta-features.png)
 
 ---
 
@@ -140,7 +140,7 @@ And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/p
 
 Subscribers can be enabled via a checkbox on the Labs page, in your Ghost admin panel:
 
-![enable subscribers](/images/docs/ghost/bold/subscribers-enable.png)
+![enable subscribers](/images/docs/ghost/shared/beta-features.png)
 
 Once you enabled this feature, the form will appear in the single post page.
 

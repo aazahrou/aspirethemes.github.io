@@ -10,9 +10,11 @@ Current Version: 1.4.4 - 27 Sept 2017
 ---
 
 * [Theme Installation](#theme-installation)
+* [Enable the Public API](#enable-the-public-api)
 * [Static Pages](#static-pages)
 * [Navigation](#navigation)
 * [Search](#search)
+* [Tags Page](#tags-page)
 * [Disqus Comments](#disqus-comments)
 * [Twitter](#twitter)
 * [Instagram](#instagram)
@@ -35,6 +37,14 @@ Current Version: 1.4.4 - 27 Sept 2017
 * Click on the `Upload a Theme` green button.
 * An upload box will open, then choose the theme (*aspire.zip*) within the downloaded package.
 * Once uploaded, click on `Activate now` button to activate the theme immediately or `Close` if you want to activate it later.
+
+---
+
+### Enable the Public API
+
+Public API is important for some functionality like search, tags page, and subscribe form to work properly. You can enable the Public API from Ghost admin. Go to `Labs > Beta features` section and check the *Public API* mark to enable it.
+
+![enable-public-api](/images/docs/ghost/shared/beta-features.png)
 
 ---
 
@@ -62,7 +72,21 @@ Next, click inside the **URL field** of the menu item. The blog URL will auto-po
 
 ### Search
 
-For the search to work properly, please enable the [Public API Beta](http://support.ghost.org/public-api-beta/).
+For the search to work properly, please make sure that the [Public API](#enable-the-public-api) is enabled.
+
+---
+
+### Tags Page
+
+To create the tags page:
+
+- Enable the [Public API](#enable-the-public-api).
+- Create a new post and call it `Tags` for example, and make sure that the POST URl is `tags`.
+- Click the `Turn this post into a static page` checkbox.
+- Publish the page.
+- To add the page to the navigation, please check the [Navigation](#navigation) section above.
+
+![static page](/images/docs/ghost/bold/tags-page.png)
 
 ---
 
@@ -155,9 +179,7 @@ Aspire theme default value is set to `12` posts per page.
 
 Related posts will be visible on the single post page when there are similar posts with similar tags, and will be hidden otherwise.
 
-You will need to enable the Public Api from Ghost admin. Go to `Settings > Labs` and check the *Public Api* mark to enable it.
-
-![enable-public-api](/images/docs/ghost/shared/enable-public-api.png)
+Enabling the [Public API](#enable-the-public-api) is required.
 
 ---
 
@@ -171,7 +193,7 @@ To integrate Google Analytics, I would recommend reading [How do I add Google An
 
 Subscribers can be enabled via a checkbox on the Labs page, in your Ghost admin panel:
 
-![enable subscribers](/images/docs/ghost/shared/subscribers-enable.png)
+![enable subscribers](/images/docs/ghost/shared/beta-features.png)
 
 Once you enabled this feature, the form will appear in three places:
 
