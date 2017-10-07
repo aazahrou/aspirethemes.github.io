@@ -5,7 +5,7 @@ categories: docs
 platform: WordPress
 ---
 
-Current Version: 1.1.6 - 29 Sept 2017
+Current Version: 1.1.7 - 7 Oct 2017
 
 ---
 
