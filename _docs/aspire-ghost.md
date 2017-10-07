@@ -213,7 +213,7 @@ Social media links are placed in 3 different places (files):
 * `partials/social-nav.hbs`
 * `partials/sidebar/widget-social.hbs`
 
-Ghost supports adding Facebook and Twitter profile URLs from the admin panel, go to **General > Social accounts** and add your URLs, and this will update the Facebook and Twitter URLs within the 3 locations mentioned above.
+Ghost supports adding Facebook and Twitter profile URLs from the admin panel, go to **General > Social accounts** and add your URLs, this will update the Facebook and Twitter URLs within the 3 locations mentioned above.
 
 ![social-accounts](/images/docs/ghost/shared/social-accounts.png)
 
@@ -273,12 +273,12 @@ Youtube
 <span data-icon='ei-sc-youtube' data-size='s'></span>
 ```
 
-To edit or update other excisted social links, let's take an example from `partials/social-nav.hbs` file, for exmaple, the Instagram code block:
+To edit or update other excisted and static social links, let's take an example from `partials/social-nav.hbs` file, for exmaple, the Instagram code block:
 
 ```html
-<li class='c-widget-social__item'>
-  <a href='Instagram URL' class='c-widget-social__link' target='_blank'>
-    <span data-icon='ei-sc-instagram' class='c-widget-social__icon' data-size='s'></span>
+<li class='c-social-nav__item'>
+  <a href='#' aria-label='Instagram' target='_blank' rel='noopener'>
+    <span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span>
   </a>
 </li>
 ```
@@ -294,9 +294,9 @@ https://www.instagram.com/ghost/
 the new code will be:
 
 ```html
-<li class='c-widget-social__item'>
-  <a href='https://www.instagram.com/ghost/' class='c-widget-social__link' target='_blank'>
-    <span data-icon='ei-sc-instagram' class='c-widget-social__icon' data-size='s'></span>
+<li class='c-social-nav__item'>
+  <a href='https://www.instagram.com/ghost/' aria-label='Instagram' target='_blank' rel='noopener'>
+    <span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span>
   </a>
 </li>
 ```

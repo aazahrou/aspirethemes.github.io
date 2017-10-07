@@ -104,7 +104,7 @@ title: Welcome to Jekyll!
 featured: true
 author: ahmad
 tags: [frontpage, jekyll, blog]
-image: '/images/welcome.jpg'
+image: '/images/posts/welcome.jpg'
 ---
 {% endhighlight %}
 
@@ -121,6 +121,8 @@ To keep things more organized, add post images to **/images/pages** directory, a
 To create a draft post, create the post file under the **_drafts** directory, and you can find more information at [Working with Drafts](http://jekyllrb.com/docs/drafts/).
 
 For tags, try to not add space between two words, for example, `Ruby on Rails`, could be something like (`ruby-on-rails`, `Ruby_on_Rails`, or `Ruby-on-Rails`).
+
+As mentioned in the [item page](https://themeforest.net/item/aspire-clean-news-magazine-jekyll-theme/19847658), there is a problem with tags when the site is deployed using GitHub Pages, as the tagging gem is not supported, but I managed to fix this by using [Netlify](https://www.netlify.com/) for deployment, the code will be on GitHub or BitBucket as usual, it's only one step to connect the repo and do the deployment, just a fantastic service I use for all of my Jekyll work. This [post](https://www.netlify.com/blog/2017/05/11/migrating-your-jekyll-site-to-netlify/) is a good start.
 
 ---
 
