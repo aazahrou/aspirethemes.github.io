@@ -32,7 +32,7 @@ Current Version: 1.0.9 - 06 October 2017
 
 This is a quick video showing how to install the theme, upload blog cover image, favicon, create the tags page, and update the profile information for the editor.
 
-<iframe src="https://www.youtube.com/embed/vCmuGncWubQ" frameborder="0" allowfullscreen></iframe>
+<iframe src='https://www.youtube.com/embed/vCmuGncWubQ' frameborder='0' allowfullscreen></iframe>
 
 ---
 
@@ -84,13 +84,13 @@ The hero section shows the cover image and the blog description, which you can e
 
 The theme comes with description support for HTML tags, so you can add normal tags like custom links or headings and the theme will automatically render them on the browser. For example, the demo description is the following:
 
-{% highlight html %}
+```html
 <h2>Thoughts, Stories and Ideas.</h2>
 <p>Don't cry because it's over, smile because it happened.
   <br>
-  - <a href="https://en.wikipedia.org/wiki/Dr._Seuss">Dr. Seuss</a>
+  - <a href='https://en.wikipedia.org/wiki/Dr._Seuss'>Dr. Seuss</a>
 </p>
-{% endhighlight %}
+```
 
 ---
 
@@ -120,15 +120,15 @@ The Theme comes with Disqus comments enabled.
 
 Open `partials/disqus.hbs` file, and change the `aspirethemes-demos` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
-{% highlight js %}
-var disqus_shortname = "aspirethemes-demos";
-{% endhighlight %}
+```js
+var disqus_shortname = 'aspirethemes-demos';
+```
 
-So, if your Disqus shortname is `exampleone`, the final code above should be
+So, if your Disqus shortname is `exampleone`, the final code above should be:
 
-{% highlight js %}
-var disqus_shortname = "exampleone";
-{% endhighlight %}
+```js
+var disqus_shortname = 'exampleone';
+```
 
 That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
 
@@ -138,13 +138,13 @@ And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/p
 
 ### Subscribe Form
 
-Subscribers can be enabled via a checkbox on the Labs page, in your Ghost admin panel:
+Subscribers can be enabled via a checkbox on the Labs page (`Labs > Beta features`), in your Ghost admin panel:
 
 ![enable subscribers](/images/docs/ghost/shared/beta-features.png)
 
 Once you enabled this feature, the form will appear in the single post page.
 
-You can read more about [Subscribers](http://support.ghost.org/subscribers-beta/)
+You can read more about [Subscribers Beta](https://help.ghost.org/hc/en-us/articles/224089787-Subscribers-Beta).
 
 ---
 
@@ -152,7 +152,7 @@ You can read more about [Subscribers](http://support.ghost.org/subscribers-beta/
 
 With Ghost 1.0, the ["Posts per page"](https://themes.ghost.org/docs/packagejson#section--config-posts_per_page-) setting is now part of the theme. The config purpose is to control how many posts to show per page from the `package.json` file like this:
 
-```js
+```json
 "config": {
   "posts_per_page": 6
 }
@@ -172,7 +172,7 @@ Enabling the [Public API](#enable-the-public-api) is required.
 
 ### Google Analytics
 
-To integrate Google Analytics, I would recommend reading [How do I add Google Analytics to my blog?](http://support.ghost.org/add-google-analytics-blog/) by Ghost.
+To integrate Google Analytics, I would recommend reading [Google Analytics](https://help.ghost.org/hc/en-us/articles/115000450512-Google-Analytics) integration steps by Ghost.
 
 ---
 
@@ -186,57 +186,57 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 
 Twitter
 
-{% highlight html %}
-<span data-icon="ei-sc-twitter" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-twitter' data-size='s'></span>
+```
 
 Facebook
 
-{% highlight html %}
-<span data-icon="ei-sc-facebook" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-facebook' data-size='s'></span>
+```
 
 Instagram
 
-{% highlight html %}
-<span data-icon="ei-sc-instagram" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-instagram' data-size='s'></span>
+```
 
 Pinterest
 
-{% highlight html %}
-<span data-icon="ei-sc-pinterest" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-pinterest' data-size='s'></span>
+```
 
 Vimeo
 
-{% highlight html %}
-<span data-icon="ei-sc-vimeo" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-vimeo' data-size='s'></span>
+```
 
 Google Plus
 
-{% highlight html %}
-<span data-icon="ei-sc-google-plus" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-google-plus' data-size='s'></span>
+```
 
 SoundCloud
 
-{% highlight html %}
-<span data-icon="ei-sc-soundcloud" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-soundcloud' data-size='s'></span>
+```
 
 Tumblr
 
-{% highlight html %}
-<span data-icon="ei-sc-tumblr" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-tumblr' data-size='s'></span>
+```
 
 Youtube
 
-{% highlight html %}
-<span data-icon="ei-sc-youtube" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-youtube' data-size='s'></span>
+```
 
 ---
 
@@ -262,15 +262,15 @@ If you are a developer and need to do customization work, the theme is using [Gu
 
 First, make sure you have [Node.js](https://nodejs.org/en/), [npm](https://www.npmjs.com/), and [Bower](https://bower.io/#install-bower) installed, then run the-the following commands in the theme root directory to install *npm* and *bower* dependencies.
 
-{% highlight shell %}
+```sh
 npm install
-{% endhighlight %}
+```
 
 To start Gulp, run:
 
-{% highlight shell %}
+```sh
 gulp
-{% endhighlight %}
+```
 
 This will compile Sass and JavaScript files, and start watching changes as you edit files.
 
@@ -278,9 +278,9 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 
 To create a clean and small theme package, you can exclude different directories using the following command line:
 
-{% highlight shell %}
+```sh
 zip -r bold.zip bold -x *node_modules* *bower_components* *git*
-{% endhighlight %}
+```
 
 This will exclude *node_modules*, *bower_components*, and *git* directories from the final zip file.
 
@@ -294,7 +294,7 @@ Another option is to use the Ghost [Code Injection](https://help.ghost.org/hc/en
 
 If you have any questions, I'd be happy to help.
 
-* _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
-* _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
+* Email: [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
+* Twitter: [@aspirethemes](https://twitter.com/aspirethemes)
 
 ---

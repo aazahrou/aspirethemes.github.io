@@ -20,7 +20,6 @@ Current Version: 1.2.0 - 7 August 2017
 * [Related Posts](#relatedposts)
 * [Social Media Links](#social-media-links)
 * [Update Favicon](#update-favicon)
-* [Copyright Information](#copyright-information)
 * [Theme Development](#theme-development)
 * [Support](#support)
 
@@ -70,15 +69,15 @@ Magaz Theme comes with Disqus comments enabled.
 
 Open `partials/disqus.hbs` file, and change the `aspirethemes-demo` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
-{% highlight js %}
+```js
 var disqus_shortname = "aspirethemes-demos";
-{% endhighlight %}
+```
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
 
-{% highlight js %}
+```js
 var disqus_shortname = "exampleone";
-{% endhighlight %}
+```
 
 That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
 
@@ -97,7 +96,7 @@ Once you enabled this feature, the form will appear in two places:
 * Footer
 * Single post page sidebar widget
 
-You can read more about [Subscribers](http://support.ghost.org/subscribers-beta/)
+You can read more about [Subscribers Beta](https://help.ghost.org/hc/en-us/articles/224089787-Subscribers-Beta).
 
 ---
 
@@ -117,7 +116,7 @@ Magaz theme default value is set to `15` posts per page.
 
 ### Google Analytics
 
-To integrate Google Analytics, I would recommend reading [How do I add Google Analytics to my blog?](http://support.ghost.org/add-google-analytics-blog/) by Ghost.
+To integrate Google Analytics, I would recommend reading [Google Analytics](https://help.ghost.org/hc/en-us/articles/115000450512-Google-Analytics) integration steps by Ghost.
 
 ---
 
@@ -146,57 +145,57 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 
 Twitter
 
-{% highlight html %}
-<span data-icon="ei-sc-twitter" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-twitter' data-size='s'></span>
+```
 
 Facebook
 
-{% highlight html %}
-<span data-icon="ei-sc-facebook" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-facebook' data-size='s'></span>
+```
 
 Instagram
 
-{% highlight html %}
-<span data-icon="ei-sc-instagram" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-instagram' data-size='s'></span>
+```
 
 Pinterest
 
-{% highlight html %}
-<span data-icon="ei-sc-pinterest" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-pinterest' data-size='s'></span>
+```
 
 Vimeo
 
-{% highlight html %}
-<span data-icon="ei-sc-vimeo" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-vimeo' data-size='s'></span>
+```
 
 Google Plus
 
-{% highlight html %}
-<span data-icon="ei-sc-google-plus" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-google-plus' data-size='s'></span>
+```
 
 SoundCloud
 
-{% highlight html %}
-<span data-icon="ei-sc-soundcloud" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-soundcloud' data-size='s'></span>
+```
 
 Tumblr
 
-{% highlight html %}
-<span data-icon="ei-sc-tumblr" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-tumblr' data-size='s'></span>
+```
 
 Youtube
 
-{% highlight html %}
-<span data-icon="ei-sc-youtube" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-youtube' data-size='s'></span>
+```
 
 ---
 
@@ -216,27 +215,21 @@ You can find the current favicon inside the theme **assets** directory, just rep
 
 ---
 
-### Copyright Information
-
-You will find copyright information at the bottom of `partials/footer.hbs` file.
-
----
-
 ### Theme Development
 
 If you are a developer and need to do customization work, the theme is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript. This improves the development flow and making it much faster.
 
 First, make sure you have [Node.js](https://nodejs.org/en/), [npm](https://www.npmjs.com/), and [Bower](https://bower.io/#install-bower) installed, then run the-the following commands in the theme root directory to install *npm* and *bower* dependencies.
 
-{% highlight shell %}
+```sh
 npm install
-{% endhighlight %}
+```
 
 To start Gulp, run:
 
-{% highlight shell %}
+```sh
 gulp
-{% endhighlight %}
+```
 
 This will compile Sass and JavaScript files, and start watching changes as you edit files.
 
@@ -244,9 +237,9 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 
 To create a clean and small theme package, you can exclude different directories using the following command line:
 
-{% highlight shell %}
+```sh
 zip -r magaz.zip magaz -x *node_modules* *bower_components* *git*
-{% endhighlight %}
+```
 
 This will exclude *node_modules*, *bower_components*, and *git* directories from the final zip file.
 
@@ -260,7 +253,7 @@ Another option is to use the Ghost [Code Injection](https://help.ghost.org/hc/en
 
 If you have any questions, I'd be happy to help.
 
-* _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
-* _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
+* Email: [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
+* Twitter: [@aspirethemes](https://twitter.com/aspirethemes)
 
 ---

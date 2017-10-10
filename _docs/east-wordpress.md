@@ -166,15 +166,15 @@ If you are a developer and need to do customization work, the theme is using [Gu
 
 First, make sure you have [Node.js](https://nodejs.org/en/), [npm](https://www.npmjs.com/), and [Bower](https://bower.io/#install-bower) installed, then run the-the following commands in the theme root directory to install *npm* and *bower* dependencies.
 
-{% highlight shell %}
+```sh
 npm install
-{% endhighlight %}
+```
 
 To start Gulp, run:
 
-{% highlight shell %}
+```sh
 gulp
-{% endhighlight %}
+```
 
 This will compile Sass and JavaScript files, and start watching changes as you edit files.
 
@@ -184,7 +184,7 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 
 If you have any questions, I'd be happy to help.
 
-* _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
-* _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
+* Email: [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
+* Twitter: [@aspirethemes](https://twitter.com/aspirethemes)
 
 ---

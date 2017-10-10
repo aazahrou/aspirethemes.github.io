@@ -60,15 +60,15 @@ The Theme comes with Disqus comments enabled.
 
 Open `partials/disqus.hbs` file, and change the `aspirethemes-demo` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
-{% highlight js %}
+```js
 var disqus_shortname = "aspirethemes-demo";
-{% endhighlight %}
+```
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
 
-{% highlight js %}
+```js
 var disqus_shortname = "exampleone";
-{% endhighlight %}
+```
 
 That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
 
@@ -78,7 +78,7 @@ And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/p
 
 ### Google Analytics
 
-To integrate Google Analytics, I would recommend reading [How do I add Google Analytics to my blog?](http://support.ghost.org/add-google-analytics-blog/) by Ghost.
+To integrate Google Analytics, I would recommend reading [Google Analytics](https://help.ghost.org/hc/en-us/articles/115000450512-Google-Analytics) integration steps by Ghost.
 
 ---
 
@@ -94,57 +94,57 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 
 Twitter
 
-{% highlight html %}
-<span data-icon="ei-sc-twitter" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-twitter' data-size='s'></span>
+```
 
 Facebook
 
-{% highlight html %}
-<span data-icon="ei-sc-facebook" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-facebook' data-size='s'></span>
+```
 
 Instagram
 
-{% highlight html %}
-<span data-icon="ei-sc-instagram" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-instagram' data-size='s'></span>
+```
 
 Pinterest
 
-{% highlight html %}
-<span data-icon="ei-sc-pinterest" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-pinterest' data-size='s'></span>
+```
 
 Vimeo
 
-{% highlight html %}
-<span data-icon="ei-sc-vimeo" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-vimeo' data-size='s'></span>
+```
 
 Google Plus
 
-{% highlight html %}
-<span data-icon="ei-sc-google-plus" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-google-plus' data-size='s'></span>
+```
 
 SoundCloud
 
-{% highlight html %}
-<span data-icon="ei-sc-soundcloud" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-soundcloud' data-size='s'></span>
+```
 
 Tumblr
 
-{% highlight html %}
-<span data-icon="ei-sc-tumblr" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-tumblr' data-size='s'></span>
+```
 
 Youtube
 
-{% highlight html %}
-<span data-icon="ei-sc-youtube" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-youtube' data-size='s'></span>
+```
 
 ---
 
@@ -168,15 +168,15 @@ If you are a developer and need to do customization work, the theme is using [Gu
 
 First, make sure you have [Node.js](https://nodejs.org/en/), [npm](https://www.npmjs.com/), and [Bower](https://bower.io/#install-bower) installed, then run the-the following commands in the theme root directory to install *npm* and *bower* dependencies.
 
-{% highlight shell %}
+```sh
 npm install
-{% endhighlight %}
+```
 
 To start Gulp, run:
 
-{% highlight shell %}
+```sh
 gulp
-{% endhighlight %}
+```
 
 This will compile Sass and JavaScript files, and start watching changes as you edit files.
 
@@ -186,7 +186,7 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 
 If you have any questions, I'd be happy to help.
 
-* _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
-* _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
+* Email: [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
+* Twitter: [@aspirethemes](https://twitter.com/aspirethemes)
 
 ---

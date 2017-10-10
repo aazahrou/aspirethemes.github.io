@@ -28,7 +28,7 @@ Current Version: 1.0.1 - 28 Sept 2017
 
 Aspire theme comes with different customizations in the `_config.yml` file:
 
-{% highlight shell %}
+```sh
 # Site settings
 title:              Aspire
 logo:               # Logo image URL
@@ -79,7 +79,7 @@ authors:
     website:          http://aspirethemes.com
     github_username:  ahmadajmi
     twitter_username: ahmadajmi
-{% endhighlight %}
+```
 
 ---
 
@@ -97,7 +97,7 @@ To create a new post, you can create a new markdown file inside the `_posts` dir
 
 The following is a post file with different configurations you can add as example:
 
-{% highlight shell %}
+```sh
 ---
 layout: post
 title: Welcome to Jekyll!
@@ -106,7 +106,7 @@ author: ahmad
 tags: [frontpage, jekyll, blog]
 image: '/images/posts/welcome.jpg'
 ---
-{% endhighlight %}
+```
 
 You can set the author, featured or not, tags, and the post image.
 
@@ -132,13 +132,13 @@ To create a new page, just create a new markdown file inside the `_pages` direct
 
 The following is the `about.md` file that you can find as an example included in the theme with the configurations you can set.
 
-{% highlight shell %}
+```sh
 ---
 layout: page
 title: About
 image: '/images/pages/about.jpeg'
 ---
-{% endhighlight %}
+```
 
 Things you can change are: `title` and `image` path.
 
@@ -156,15 +156,15 @@ Aspire Theme comes with Disqus comments enabled.
 
 Open `_includes/disqus.html` file, and change the `aspirethemes` value on line 15 with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
 
-{% highlight js %}
+```js
 s.src = '//aspirethemes-demos.disqus.com/embed.js';
-{% endhighlight %}
+```
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
 
-{% highlight js %}
+```js
 s.src = '//exampleone.disqus.com/embed.js';
-{% endhighlight %}
+```
 
 That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
 
@@ -229,57 +229,57 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 
 Twitter
 
-{% highlight html %}
-<span data-icon="ei-sc-twitter" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-twitter' data-size='s'></span>
+```
 
 Facebook
 
-{% highlight html %}
-<span data-icon="ei-sc-facebook" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-facebook' data-size='s'></span>
+```
 
 Instagram
 
-{% highlight html %}
-<span data-icon="ei-sc-instagram" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-instagram' data-size='s'></span>
+```
 
 Pinterest
 
-{% highlight html %}
-<span data-icon="ei-sc-pinterest" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-pinterest' data-size='s'></span>
+```
 
 Vimeo
 
-{% highlight html %}
-<span data-icon="ei-sc-vimeo" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-vimeo' data-size='s'></span>
+```
 
 Google Plus
 
-{% highlight html %}
-<span data-icon="ei-sc-google-plus" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-google-plus' data-size='s'></span>
+```
 
 SoundCloud
 
-{% highlight html %}
-<span data-icon="ei-sc-soundcloud" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-soundcloud' data-size='s'></span>
+```
 
 Tumblr
 
-{% highlight html %}
-<span data-icon="ei-sc-tumblr" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-tumblr' data-size='s'></span>
+```
 
 Youtube
 
-{% highlight html %}
-<span data-icon="ei-sc-youtube" data-size="s"></span>
-{% endhighlight %}
+```html
+<span data-icon='ei-sc-youtube' data-size='s'></span>
+```
 
 ---
 
@@ -291,9 +291,9 @@ You can find the current favicon (favicon.ico) inside the theme root directory, 
 
 ### Support
 
-If you have any questions, I’d be happy to answer them.
+If you have any questions, I'd be happy to help.
 
-* _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
-* _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
+* Email: [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
+* Twitter: [@aspirethemes](https://twitter.com/aspirethemes)
 
 ---
