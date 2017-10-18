@@ -137,9 +137,11 @@ Social media links are placed in:
 
 * `partials/sidebar.hbs`
 
-Ghost 0.8.0 supports adding Facebook and Twitter profile urls from the admin panel, go to **Settings > General** and add your URLs, and this will update the Facebook and Twitter URLs in the location mentioned above, other social media URLs you can add it from the file.
+Ghost supports adding Facebook and Twitter profile URLs from the admin panel, go to **General > Social accounts** and add your URLs, this will update the Facebook and Twitter URLs within the location mentioned above.
 
-The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
+![social-accounts](/images/docs/ghost/shared/social-accounts.png)
+
+For using other social accounts, the theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 
 Twitter
 
@@ -195,9 +197,41 @@ Youtube
 <span data-icon='ei-sc-youtube' data-size='s'></span>
 ```
 
+To edit or update other excisted and static social links, let's take an example from `partials/sidebar.hbs` file, for exmaple, the Instagram code block:
+
+```html
+<li>
+  <a href='https://instagram.com/{% raw %}{{! Add Instagram handle }}{% endraw %}' target='_blank'>
+    <span data-icon='ei-sc-instagram' data-size='s'></span>
+  </a>
+</li>
+```
+
+The code above contains the ICON code from the above list, the social media link (`a`) within a list element (`li`).
+
+Next, replace your Instagram username with `{% raw %}{{! Add Instagram handle }}{% endraw %}` value, so if your Instagram username is `ghost`, the new code will be:
+
+```html
+<li>
+  <a href='https://instagram.com/ghost' target='_blank'>
+    <span data-icon='ei-sc-instagram' data-size='s'></span>
+  </a>
+</li>
+```
+
+If you want to completly remove Instagram, you can delete all the code block, the `li`, `a`, and the icon.
+
 ---
 
 ### Update favicon
+
+#### New Ghost 1.0
+
+The favicon in Ghost 1.0 could be changed from the [Blog settings](https://help.ghost.org/hc/en-us/articles/223207167-Blog-Settings-Overview) from the Publication icon section.
+
+![Update favicon](/images/docs/ghost/shared/update-favicon-ghost-1.png)
+
+#### Old Ghost Versions
 
 You can find the current favicon inside the theme **assets** directory, just replace it with your new favicon, then upload to the server.
 
