@@ -182,7 +182,11 @@ Social media links are placed in:
 
 * `partials/social-nav.hbs`
 
-The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
+Ghost supports adding Facebook and Twitter profile URLs from the admin panel, go to **General > Social accounts** and add your URLs, this will update the Facebook and Twitter URLs within the location mentioned above.
+
+![social-accounts](/images/docs/ghost/shared/social-accounts.png)
+
+For using other social accounts, the theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 
 Twitter
 
@@ -237,6 +241,36 @@ Youtube
 ```html
 <span data-icon='ei-sc-youtube' data-size='s'></span>
 ```
+
+To edit or update other excisted and static social links, let's take an example from `partials/social-nav.hbs` file, for exmaple, the Instagram code block:
+
+```html
+<li class='c-social-nav__item'>
+  <a href='#' aria-label='Instagram' target='_blank' rel='noopener'>
+    <span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span>
+  </a>
+</li>
+```
+
+The code above contains the ICON code from the above list, the social media link (`a`) within a list element (`li`).
+
+Next, replace your Instagram full URL with the link `href` value so if your Instagram URL is:
+
+```html
+https://www.instagram.com/ghost/
+```
+
+the new code will be:
+
+```html
+<li class='c-social-nav__item'>
+  <a href='https://www.instagram.com/ghost/' aria-label='Instagram' target='_blank' rel='noopener'>
+    <span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span>
+  </a>
+</li>
+```
+
+If you want to completly remove Instagram, you can delete all the code block, the `li`, `a`, and the icon.
 
 ---
 
