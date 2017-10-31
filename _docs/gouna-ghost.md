@@ -1,11 +1,11 @@
 ---
 layout: doc
-title: Aspire
+title: Gouna
 categories: docs
 platform: Ghost
 ---
 
-Current Version: 1.4.5 - 06 October 2017
+Current Version: In Review ...
 
 ---
 
@@ -15,6 +15,7 @@ Current Version: 1.4.5 - 06 October 2017
 * [Navigation](#navigation)
 * [Search](#search)
 * [Tags Page](#tags-page)
+* [Authors Page](#authors-page)
 * [Disqus Comments](#disqus-comments)
 * [Twitter](#twitter)
 * [Instagram](#instagram)
@@ -34,7 +35,7 @@ Current Version: 1.4.5 - 06 October 2017
 * Log into the admin section of your Ghost blog `yourblog.com/ghost`.
 * Select `Design` from the left hand side of your admin area and go to the **Themes** section.
 * Click on the `Upload a Theme` green button.
-* An upload box will open, then choose the theme (*aspire.zip*) within the downloaded package.
+* An upload box will open, then choose the theme (*gouna.zip*) within the downloaded package.
 * Once uploaded, click on `Activate now` button to activate the theme immediately or `Close` if you want to activate it later.
 
 ---
@@ -89,9 +90,23 @@ To create the tags page:
 
 ---
 
+### Authors Page
+
+To create the Authors page:
+
+- Enable the [Public API](#enable-the-public-api).
+- Create a new post and call it `Authors` for example, and make sure that the POST URl is `authors`.
+- Click the `Turn this post into a static page` checkbox.
+- Publish the page.
+- To add the page to the navigation, please check the [Navigation](#navigation) section above.
+
+![static page](/images/docs/ghost/gouna/authors-page.png)
+
+---
+
 ### Disqus Comments
 
-Aspire Theme comes with Disqus comments enabled.
+Gouna Theme comes with Disqus comments enabled.
 
 Open `partials/disqus.hbs` file, and change the `aspirethemes-demos` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
@@ -129,8 +144,6 @@ To set up the Twitter feed:
 
 ### Instagram
 
-#### New Ghost 1.0
-
 The Instagram feed is working using [Instafeed.js](http://instafeedjs.com/) to show the photos.
 
 First, you will need to get your account `userId` and `accessToken` from the following URLs:
@@ -152,11 +165,6 @@ var instagramFeed = new Instafeed({
 
 You can control how much images to show by changing the `limit` number. Theme default is set to `9` images.
 
-#### Old Ghost Versions
-
-- To generate a new Instagram feed for your account, please visit [Instansive](http://instansive.com/).
-- Customize the widget based on a username or hashtag, then you will get a code for the widget, open `partials/sidebar/widget-instagram.hbs` file and paste the code.
-
 ---
 
 ### Posts Per Page
@@ -169,7 +177,7 @@ With Ghost 1.0, the [Posts per page](https://themes.ghost.org/docs/packagejson#s
 }
 ```
 
-Aspire theme default value is set to `12` posts per page.
+Gouna theme default value is set to `12` posts per page.
 
 ---
 
@@ -193,11 +201,7 @@ Subscribers can be enabled via a checkbox on the Labs page (`Labs > Beta feature
 
 ![enable subscribers](/images/docs/ghost/shared/beta-features.png)
 
-Once you enabled this feature, the form will appear in three places:
-
-* Footer
-* Single post page sidebar widget
-* Single post page after the article
+Once you enabled this feature, the form will appear in the footer.
 
 You can read more about [Subscribers Beta](https://help.ghost.org/hc/en-us/articles/224089787-Subscribers-Beta).
 
@@ -205,11 +209,7 @@ You can read more about [Subscribers Beta](https://help.ghost.org/hc/en-us/artic
 
 ### Social Media Links
 
-Social media links are placed in 3 different places (files):
-
-* `partials/footer.hbs`
-* `partials/social-nav.hbs`
-* `partials/sidebar/widget-social.hbs`
+Social media links are placed in the `partials/social-icons.hbs` file.
 
 Ghost supports adding Facebook and Twitter profile URLs from the admin panel, go to **General > Social accounts** and add your URLs, this will update the Facebook and Twitter URLs within the 3 locations mentioned above.
 
@@ -271,12 +271,12 @@ Youtube
 <span data-icon='ei-sc-youtube' data-size='s'></span>
 ```
 
-To edit or update other excisted and static social links, let's take an example from `partials/social-nav.hbs` file, for exmaple, the Instagram code block:
+To edit or update other excisted and static social links, for exmaple, the Instagram code block:
 
 ```html
-<li class='c-social-nav__item'>
+<li class='c-social-icons__item'>
   <a href='#' aria-label='Instagram' target='_blank' rel='noopener'>
-    <span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span>
+    <span class='c-social-icons__icon' data-icon='ei-sc-instagram' data-size='s'></span>
   </a>
 </li>
 ```
@@ -307,17 +307,9 @@ This concept is applied to all the custom icon list available in the 3 social me
 
 ### Update Favicon
 
-#### New Ghost 1.0
-
 The favicon in Ghost 1.0 could be changed from the [Blog settings](https://help.ghost.org/hc/en-us/articles/223207167-Blog-Settings-Overview) from the Publication icon section.
 
 ![Update favicon](/images/docs/ghost/shared/update-favicon-ghost-1.png)
-
-#### Old Ghost Versions
-
-You can find the current favicon inside the theme **assets** directory, just replace it with your new favicon, then upload to the server.
-
-![Update favicon](/images/docs/ghost/shared/update-favicon.png)
 
 ---
 
@@ -344,7 +336,7 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 To create a clean and small theme package, you can exclude different directories using the following command line:
 
 ```sh
-zip -r aspire.zip aspire -x *node_modules* *bower_components* *git*
+zip -r gouna.zip gouna -x *node_modules* *bower_components* *git*
 ```
 
 This will exclude *node_modules*, *bower_components*, and *git* directories from the final zip file.
