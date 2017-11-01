@@ -152,13 +152,13 @@ To integrate Google Analytics, I would recommend reading [Google Analytics](http
 
 ### Social Media Links
 
-Ghost supports adding Facebook and Twitter profile URLs from the admin panel, go to **General > Social accounts** and add your URLs, and this will update the Facebook and Twitter URLs in the blog footer.
+Social media links are placed in the `partials/social-nav.hbs` file.
+
+Ghost supports adding Facebook and Twitter profile URLs from the admin panel, go to **General > Social accounts** and add your URLs, this will update the Facebook and Twitter URLs in the blog footer.
 
 ![social-accounts](/images/docs/ghost/shared/social-accounts.png)
 
-If you want to add more static social media links, you can open directly add them in: `partials/social-nav.hbs` file.
-
-The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
+If you want to add more static social media links, the theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 
 Twitter
 
@@ -213,6 +213,64 @@ Youtube
 ```html
 <span data-icon='ei-sc-youtube' data-size='s'></span>
 ```
+
+Let's add an extra social media link, for example, Instagram to the exciting Facebook and Twitter links.
+
+First, open the `partials/social-nav.hbs` file, then add the following code inside the `ul` element.
+
+```html
+<li class='c-social-nav__item'>
+  <a href='' target='_blank'>
+    <span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span>
+  </a>
+</li>
+```
+
+Note that we use the `data-icon='ei-sc-instagram'` for Instagram, you can change this for other icons from the list above.
+
+Second, Add the Instagram URL to the `href` value, so if your Instagram URL is:
+
+```html
+https://www.instagram.com/ghost/
+```
+
+the new code will be:
+
+```html
+<li class='c-social-nav__item'>
+  <a href='https://www.instagram.com/ghost/' target='_blank'>
+    <span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span>
+  </a>
+</li>
+```
+
+If all the steps done properly, the final `partials/social-nav.hbs` file should look like:
+
+```html
+<ul class='c-social-nav o-plain-list'>
+  {% raw %}{{# if @blog.twitter}}{% endraw %}
+    <li class='c-social-nav__item'>
+      <a href='{{ twitter_url }}' target='_blank'>
+        <span class='c-social-nav__icon' data-icon='ei-sc-twitter' data-size='s'></span>
+      </a>
+    </li>
+  {% raw %}{{/if}}{% endraw %}
+  {% raw %}{{# if @blog.facebook}}{% endraw %}
+    <li class='c-social-nav__item'>
+      <a href='{{ facebook_url }}' target='_blank'>
+        <span class='c-social-nav__icon' data-icon='ei-sc-facebook' data-size='s'></span>
+      </a>
+    </li>
+  {% raw %}{{/if}}{% endraw %}
+  <li class='c-social-nav__item'>
+    <a href='https://www.instagram.com/ghost/' target='_blank'>
+      <span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span>
+    </a>
+  </li>
+</ul>
+```
+
+This concept is applied to all the social icons available, you can use the same code updating the `href` and `data-icon` values.
 
 ---
 
