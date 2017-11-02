@@ -22,7 +22,7 @@ Hi! I'm [Ahmad Ajmi](https://ahmadajmi.com/), a Front End Developer based in Cai
 
 Founded the Arabic blogging platform [oktob.io](https://oktob.io/) in 2015 which acquired by [Toriom](http://toriom.com/) in 2017.
 
-I like to [read](https://www.goodreads.com/user/show/5387651-ahmad-ajmi), [write](https://oktob.io/ahmadajmi) and [taking](https://instagram.com/ahmadajme) [photos](https://www.flickr.com/photos/127527579@N04/) too. Technical writer at [SitePoint](http://www.sitepoint.com/author/aajmi/).
+I like to [read](https://www.goodreads.com/user/show/5387651-ahmad-ajmi), [write](https://blog.ahmadajmi.com/) and [taking](https://instagram.com/ahmadajme) [photos](https://www.flickr.com/photos/127527579@N04/) too. Technical writer at [SitePoint](http://www.sitepoint.com/author/aajmi/).
 
 Feel free to contact me on Twitter [@ahmadajmi](https://twitter.com/ahmadajmi)
   </div>
