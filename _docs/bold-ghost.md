@@ -134,6 +134,12 @@ That's all you need to setup Disqus from the theme side. If you get any issue re
 
 And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
 
+#### Disable Disqus
+
+If you want to disable Disqus comments, open the `post.hbs` file and comment or delete the line contains the `{% raw %}{{> disqus}}{% endraw %}` text (line 31).
+
+![enable subscribers](/images/docs/ghost/bold/disable-disqus.png)
+
 ---
 
 ### Subscribe Form
