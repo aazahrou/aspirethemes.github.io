@@ -6,7 +6,7 @@ thumbnail: '/images/posts/ghost-contact/cover.jpg'
 description: In this post, I will go through adding a contact form, from creating the contact page, add the form, and then add the page to the site navigation.
 ---
 
-Recently, one of my customers at [AspireThemes](https://aspirethemes.com/?utm_source=medium&utm_medium=articles) asked me if there is a way to add a contact form the his new Ghost blog as there is no built in contact form shipped with Ghost and there is no support for plugins like WordPress for example.
+Recently, one of my customers at [Aspire Themes](https://aspirethemes.com/?utm_source=medium&utm_medium=articles) asked me if there is a way to add a contact form the his new Ghost blog as there is no built in contact form shipped with Ghost and there is no support for plugins like WordPress for example.
 
 I did some research and found some interesting tools to add a contact form quickly to Ghost. I found [Formspree](https://formspree.io/) to be a great and quick option to try and it is also free to use.
 
