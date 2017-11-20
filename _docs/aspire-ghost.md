@@ -5,7 +5,7 @@ categories: docs
 platform: Ghost
 ---
 
-Current Version: 1.4.5 - 06 October 2017
+Current Version: 1.4.6 - 20 November 2017
 
 ---
 
