@@ -16,6 +16,8 @@
   }
 
   &__logo {
+    font-weight: $font-weight-medium;
+
     @include attention() {
       text-decoration: none;
 
