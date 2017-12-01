@@ -4,7 +4,7 @@ title: Themes
 ---
 
 {% assign odd-even = site.themes.size | modulo:2 %}
-{% assign themes = (site.themes | sort: 'date') | reverse %}
+{% assign themes = site.themes | sort: 'date' | reverse %}
 
 {% include filter-buttons.liquid %}
 

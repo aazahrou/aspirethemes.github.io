@@ -29,7 +29,7 @@ markdown: kramdown
 include:
   - _pages
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll/tagging
 
