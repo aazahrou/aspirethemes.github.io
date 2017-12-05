@@ -1,0 +1,129 @@
+---
+layout: landing-layout
+---
+
+<div class='c-landing-hero'>
+  <div class='o-grid c-landing-hero__content'>
+
+    <div class='o-grid__col o-grid__col--2-4'>
+      <div class='c-landing-hero__info'>
+
+        <h2 class='c-landing-hero__title'>{{ page.name }}</h2>
+        <p class='c-landing-hero__description font-medium'>{{ page.description }}</p>
+
+        <div class='o-grid'>
+          <div class='o-grid__col o-grid__col--2-4'>
+            <a class='c-btn c-btn--primary c-btn--full' href='{{ page.purchase }}' onclick="trackOutboundLink('{{ page.purchase }}'); return false;">
+              {% if page.price %}
+                Buy Theme ${{ page.price }}
+              {% else %}
+                Free Download
+              {% endif %}
+            </a>
+          </div>
+          <div class='o-grid__col o-grid__col--2-4'>
+            <a class='c-btn c-btn--secondary c-btn--full' href='{{ page.demo }}' target='_blank'>Live Demo</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class='o-grid__col o-grid__col--2-4'>
+      <div class='js-fadein c-landing-hero__image' style='background-image: url(/{{ page.thumbnail }})'></div>
+    </div>
+
+  </div> <!-- o-grid -->
+</div> <!-- c-landing-hero -->
+
+<div class='c-section c-section--large'>
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--3-4'>
+      <div class='o-grid'>
+        {% for feature in page.design-features %}
+          <div class='o-grid__col o-grid__col--1-3 c-feature-wrap'>
+            <div class='c-feature'>
+              <span class='c-feature__icon'>
+                {% include {{ feature.icon | prepend: 'features-icons/' | append: '.svg' | class='c-feature__icon' }} %}
+              </span>
+              <h4 class='c-feature__title'>{{ feature.title }}</h4>
+              <p class='c-feature__description'>{{ feature.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <img class='c-section__img' src='/images/themes/ghost/bold/preview.png'>
+</div>
+
+<div class='c-section c-section--bg-gray c-section--large'>
+    <div class='o-grid'>
+      <div class='o-grid__col o-grid__col--4-4'>
+        <div class='o-grid'>
+          {% for feature in page.general-features %}
+            <div class='o-grid__col o-grid__col--1-4 c-feature-wrap'>
+              <div class='c-feature'>
+                <span class='c-feature__icon'>
+                  {% include {{ feature.icon | prepend: 'features-icons/' | append: '.svg' | class='c-feature__icon' }} %}
+                </span>
+                <h4 class='c-feature__title'>{{ feature.title }}</h4>
+                <p class='c-feature__description'>{{ feature.description }}</p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class='c-section c-section--large'>
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--4-4'>
+      <div class='o-grid'>
+        {% for feature in page.dev-features %}
+          <div class='o-grid__col o-grid__col--1-3 c-feature-wrap'>
+            <div class='c-feature'>
+              <span class='c-feature__icon'>
+                {% include {{ feature.icon | prepend: 'features-icons/' | append: '.svg' | class='c-feature__icon' }} %}
+              </span>
+              <h4 class='c-feature__title'>{{ feature.title }}</h4>
+              <p class='c-feature__description'>{{ feature.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <img class='c-section__img u-hidden' src=''>
+</div>
+
+<div class='c-section c-content u-bg-color-dark'>
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--center o-grid__col--2-4'>
+      <img class='' src='/images/themes/ghost/bold/home.jpg'>
+      <hr>
+      <img class='' src='/images/themes/ghost/bold/tags.jpg'>
+    </div>
+
+    <div class='o-grid__col o-grid__col--center o-grid__col--2-4'>
+      <img class='' src='/images/themes/ghost/bold/post.jpg'>
+    </div>
+  </div>
+</div>
+
+<div class='c-section'>
+  {% include testimonials.html %}
+</div>
+
+<div class='c-section u-text-center'>
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--center o-grid__col--2-4'>
+      <h2>Start building your blog with {{ page.name }} Now!</h2>
+      <p>Never worry about your blog theme development, {{ page.name }} will make things much easier for you and you can start focus on writing!</p>
+      <a class='c-btn c-btn--primary' href='{{ page.purchase }}' onclick="trackOutboundLink('{{ page.purchase }}'); return false;">Buy Now for ${{ page.price }}</a>
+    </div>
+  </div>
+</div>

@@ -4,7 +4,7 @@
 
 .c-footer {
   padding: double($base-spacing-unit) 0;
-  background-color: $bg-color-gray;
+  background-color: $bg-gray;
 
   @include mq($from: desktop) {
     padding: quadruple($base-spacing-unit) 0 $base-spacing-unit 0;

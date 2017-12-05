@@ -5,18 +5,20 @@ categories: docs
 platform: Ghost
 ---
 
-Current Version: 1.1.2 - 29 November 2017
+Current Version: 1.1.3 - 5 Dec 2017
 
 ---
 
 * [Theme Installation](#theme-installation)
 * [Enable the Public API](#enable-the-public-api)
 * [Static Pages](#static-pages)
+* [Header](#header)
 * [Navigation](#navigation)
 * [Home Hero](#home-hero)
 * [Search](#search)
 * [Tags Page](#tags-page)
 * [Disqus Comments](#disqus-comments)
+* [Instagram](#instagram)
 * [Subscribe Form](#subscribe-form)
 * [Posts Per Page](#posts-per-page)
 * [Related Posts](#related-posts)
@@ -62,6 +64,16 @@ In order to create a static page you create a new post, just like you would any 
 
 ---
 
+### Header
+
+![header left logo code](/images/docs/ghost/bold/header-left-logo.png)
+
+If you want to enable the left logo alternative header layout, open the `partials/header.hbs` file and add the `c-header--left-logo` to the header class and that's all what you need to do.
+
+![header left logo](/images/docs/ghost/bold/header-left-logo-code.png)
+
+---
+
 ### Navigation
 
 You can add, edit, delete and reorder menu links on your Ghost blog, directly from the navigation tool within the blog admin area, located at **/ghost/settings/navigation/**.
@@ -78,7 +90,7 @@ Next, click inside the **URL field** of the menu item. The blog URL will auto-po
 
 ### Home Hero
 
-![static page](/images/docs/ghost/bold/home-hero.png)
+![home hero](/images/docs/ghost/bold/home-hero.png)
 
 The hero section shows the cover image and the blog description, which you can edit from the [Blog Settings](https://help.ghost.org/hc/en-us/articles/223207167-Blog-Settings-Overview) admin page.
 
@@ -142,13 +154,38 @@ If you want to disable Disqus comments, open the `post.hbs` file and comment or 
 
 ---
 
+### Instagram
+
+The Instagram feed is working using [Instafeed.js](http://instafeedjs.com/) to show the photos.
+
+First, you will need to get your account `userId` and `accessToken` from the following URLs:
+
+- userId: [smashballoon.com/instagram-feed/find-instagram-user-id](https://smashballoon.com/instagram-feed/find-instagram-user-id/)
+- accessToken: [instagram.pixelunion.net](http://instagram.pixelunion.net/)
+
+Second, open the `assets/js/instagram.js` file and replace the `userId` and `accessToken` values.
+
+```js
+var instagramFeed = new Instafeed({
+  get: 'user',
+  limit: 98,
+  resolution: 'thumbnail',
+  userId: '',
+  accessToken: ''
+});
+```
+
+You can control how much images to show by changing the `limit` number. Theme default is set to `8` images.
+
+---
+
 ### Subscribe Form
 
 Subscribers can be enabled via a checkbox on the Labs page (`Labs > Beta features`), in your Ghost admin panel:
 
 ![enable subscribers](/images/docs/ghost/shared/beta-features.png)
 
-Once you enabled this feature, the form will appear in the single post page.
+Once you enabled this feature, the form will appear in the single post page and the footer.
 
 You can read more about [Subscribers Beta](https://help.ghost.org/hc/en-us/articles/224089787-Subscribers-Beta).
 

@@ -1,0 +1,25 @@
+/*------------------------------------*\
+  Components > Section
+\*------------------------------------*/
+
+.c-section {
+  position: relative;
+  overflow: hidden;
+  padding: quadruple($base-spacing-unit) 0;
+  border-top: 1px solid $color-border;
+
+  &--large {
+    padding: double(quadruple($base-spacing-unit)) 0;
+  }
+
+  &--bg-gray {
+    background-color: $bg-gray;
+  }
+
+  &__img {
+    position: absolute;
+    transform: translateX(45%);
+    top: 0;
+    right: 0;
+  }
+}

@@ -2,11 +2,9 @@
   Components > Theme Hero
 \*------------------------------------*/
 
-.c-theme-hero {
+.c-landing-hero {
   position: relative;
   padding: double($base-spacing-unit) 0;
-  margin-bottom: double($base-spacing-unit);
-  border-bottom: 1px solid $color-border;
   background-color: $bg-gray;
 
   @include mq($until: tablet) {

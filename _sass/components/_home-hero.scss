@@ -5,7 +5,7 @@
 .c-home-hero {
   padding: quadruple($base-spacing-unit) 0;
   text-align: center;
-  background-color: $bg-color-gray;
+  background-color: $bg-gray;
 
   @include mq($from: tablet) {
     padding: double(quadruple($base-spacing-unit)) 0;

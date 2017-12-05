@@ -39,4 +39,10 @@ You have purchased a theme and need to do some customization on it? I will be ha
 
 ---
 
+<div class='o-grid'>
+  <div class='o-grid__col'>
+    <hr class='bare-top'>
+  </div>
+</div>
+
 {% include testimonials.html %}
