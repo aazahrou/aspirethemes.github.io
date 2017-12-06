@@ -5,14 +5,14 @@ layout: default
 <div class='c-theme-hero'>
   <div class='o-grid c-theme-hero__content'>
 
-    <div class='o-grid__col o-grid__col--2-4'>
+    <div class='o-grid__col o-grid__col--2-4-m'>
       <div class='c-theme-hero__info'>
 
         <h2 class='c-theme-hero__title'>{{ page.name }}</h2>
         <p class='c-theme-hero__description font-medium'>{{ page.description }}</p>
 
         <div class='o-grid'>
-          <div class='o-grid__col o-grid__col--2-4'>
+          <div class='o-grid__col o-grid__col--2-4-m'>
             <a class='c-btn c-btn--primary c-btn--full' href='{{ page.purchase }}' onclick="trackOutboundLink('{{ page.purchase }}'); return false;">
               {% if page.price %}
                 Buy Theme ${{ page.price }}
@@ -21,7 +21,7 @@ layout: default
               {% endif %}
             </a>
           </div>
-          <div class='o-grid__col o-grid__col--2-4'>
+          <div class='o-grid__col o-grid__col--2-4-m'>
             <a class='c-btn c-btn--secondary c-btn--full' href='{{ page.demo }}' target='_blank'>Live Demo</a>
           </div>
         </div>
@@ -29,7 +29,7 @@ layout: default
       </div>
     </div>
 
-    <div class='o-grid__col o-grid__col--2-4'>
+    <div class='o-grid__col o-grid__col--2-4-m'>
       <div class='js-fadein c-theme-hero__image' style='background-image: url(/{{ page.thumbnail }})'></div>
     </div>
 
@@ -37,13 +37,13 @@ layout: default
 </div> <!-- c-theme-hero -->
 
 <div class='o-grid'>
-  <div class='o-grid__col o-grid__col--3-4'>
+  <div class='o-grid__col o-grid__col--3-4-m'>
     <div class='c-content'>
       {{ content }}
     </div>
   </div>
 
-  <div class='o-grid__col o-grid__col--1-4'>
+  <div class='o-grid__col o-grid__col--1-4-m'>
     <ul class="o-plain-list c-theme-features">
       {% for feature in page.features %}
         <li class="c-theme-features__item">{{feature}}</li>

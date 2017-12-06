@@ -14,10 +14,10 @@ I care so much about design, little details, clean interfaces that are functiona
 ---
 
 <div class='o-grid' markdown='1'>
-  <div class='o-grid__col o-grid__col--1-4'>
+  <div class='o-grid__col o-grid__col--1-4-m'>
     <p><img src='/images/assets/ahmadajmi.jpg' class='no-frame' alt='Ahmad Ajmi Photo'></p>
   </div>
-  <div class='o-grid__col o-grid__col--3-4' markdown='1'>
+  <div class='o-grid__col o-grid__col--3-4-m' markdown='1'>
 Hi! I'm [Ahmad Ajmi](https://ahmadajmi.com/), a Front End Developer based in Cairo, Egypt.
 
 Founded the Arabic blogging platform [oktob.io](https://oktob.io/) in 2015 which acquired by [Toriom](http://toriom.com/) in 2017.

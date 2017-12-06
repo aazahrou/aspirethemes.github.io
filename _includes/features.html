@@ -6,7 +6,7 @@
 
 <div class='o-grid'>
   {% for feature in site.data.features %}
-    <div class='o-grid__col o-grid__col--2-4 c-feature-wrap'>
+    <div class='o-grid__col o-grid__col--2-4-m c-feature-wrap'>
       <div class='c-feature'>
         <span class='c-feature__icon'>
           {% include {{ feature.icon | prepend: 'features-icons/' | append: '.svg' | class='c-feature__icon' }} %}

@@ -9,7 +9,9 @@
   border-top: 1px solid $color-border;
 
   &--large {
-    padding: double(quadruple($base-spacing-unit)) 0;
+    @include mq($from: desktop) {
+      padding: double(quadruple($base-spacing-unit)) 0;
+    }
   }
 
   &--bg-gray {
@@ -21,5 +23,10 @@
     transform: translateX(45%);
     top: 0;
     right: 0;
+    display: none;
+
+    @include mq($until: desktop) {
+      display: none;
+    }
   }
 }
