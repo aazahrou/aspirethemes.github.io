@@ -1,5 +1,5 @@
 ---
-layout:       landing
+layout:       preview
 name:         Bold
 title:        Bold - Blog and Magazine Clean Ghost Theme
 date:         2017-4-8

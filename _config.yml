@@ -44,9 +44,9 @@ collections:
   themes:
     output: true
     permalink: /themes/:path/
-  landing:
+  preview:
     output: true
-    permalink: /landing/:path/
+    permalink: /preview/:path/
   docs:
     output: true
     permalink: /docs/:path/
