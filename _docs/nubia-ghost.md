@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Gouna
+title: Nubia
 categories: docs
 platform: Ghost
 status: review
@@ -18,7 +18,6 @@ Current Version: In Review ...
 * [Tags Page](#tags-page)
 * [Authors Page](#authors-page)
 * [Disqus Comments](#disqus-comments)
-* [Twitter](#twitter)
 * [Instagram](#instagram)
 * [Posts Per Page](#posts-per-page)
 * [Related Posts](#related-posts)
@@ -36,7 +35,7 @@ Current Version: In Review ...
 * Log into the admin section of your Ghost blog `yourblog.com/ghost`.
 * Select `Design` from the left hand side of your admin area and go to the **Themes** section.
 * Click on the `Upload a Theme` green button.
-* An upload box will open, then choose the theme (*gouna.zip*) within the downloaded package.
+* An upload box will open, then choose the theme (*nubia.zip*) within the downloaded package.
 * Once uploaded, click on `Activate now` button to activate the theme immediately or `Close` if you want to activate it later.
 
 ---
@@ -101,13 +100,13 @@ To create the Authors page:
 - Publish the page.
 - To add the page to the navigation, please check the [Navigation](#navigation) section above.
 
-![static page](/images/docs/ghost/gouna/authors-page.png)
+![static page](/images/docs/ghost/nubia/authors-page.png)
 
 ---
 
 ### Disqus Comments
 
-Gouna Theme comes with Disqus comments enabled.
+Nubia Theme comes with Disqus comments enabled.
 
 Open `partials/disqus.hbs` file, and change the `aspirethemes-demos` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
@@ -127,22 +126,6 @@ And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/p
 
 ---
 
-### Twitter
-
-To set up the Twitter feed:
-
-* Go to [publish.twitter.com](https://publish.twitter.com/).
-* Enter a Twitter URl into the input box and press *Enter*.
-* Select *Embedded Timeline*.
-* You will see a Timeline preview and you can customize it as required.
-* Copy the code by clicking the *Copy Code* button.
-* Open `partials/sidebar/widget-twitter.hbs` file and replace line **4** with the copied code.
-* Save and you are done.
-
-<script src="//fast.wistia.com/embed/medias/yny59lxsto.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:55.31% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_yny59lxsto videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
-
----
-
 ### Instagram
 
 The Instagram feed is working using [Instafeed.js](http://instafeedjs.com/) to show the photos.
@@ -157,7 +140,7 @@ Second, open the `assets/js/instagram.js` file and replace the `userId` and `acc
 ```js
 var instagramFeed = new Instafeed({
   get: 'user',
-  limit: 9,
+  limit: 6,
   resolution: 'thumbnail',
   userId: '',
   accessToken: ''
@@ -174,11 +157,11 @@ With Ghost 1.0, the [Posts per page](https://themes.ghost.org/docs/packagejson#s
 
 ```js
 "config": {
-  "posts_per_page": 12
+  "posts_per_page": 11
 }
 ```
 
-Gouna theme default value is set to `12` posts per page.
+Nubia theme default value is set to `11` posts per page.
 
 ---
 
@@ -212,7 +195,7 @@ You can read more about [Subscribers Beta](https://help.ghost.org/hc/en-us/artic
 
 Social media links are placed in the `partials/social-icons.hbs` file.
 
-Ghost supports adding Facebook and Twitter profile URLs from the admin panel, go to **General > Social accounts** and add your URLs, this will update the Facebook and Twitter URLs within the 3 locations mentioned above.
+Ghost supports adding Facebook and Twitter profile URLs from the admin panel, go to **General > Social accounts** and add your URLs, this will update the Facebook and Twitter URLs within the footer social media section.
 
 ![social-accounts](/images/docs/ghost/shared/social-accounts.png)
 
@@ -293,16 +276,14 @@ https://www.instagram.com/ghost/
 the new code will be:
 
 ```html
-<li class='c-social-nav__item'>
+<li class='c-social-icons__item'>
   <a href='https://www.instagram.com/ghost/' aria-label='Instagram' target='_blank' rel='noopener'>
-    <span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span>
+    <span class='c-social-icons__icon' data-icon='ei-sc-instagram' data-size='s'></span>
   </a>
 </li>
 ```
 
 If you want to completly remove Instagram, you can delete all the code block, the `li`, `a`, and the icon.
-
-This concept is applied to all the custom icon list available in the 3 social media places.
 
 ---
 
@@ -337,7 +318,7 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 To create a clean and small theme package, you can exclude different directories using the following command line:
 
 ```sh
-zip -r gouna.zip gouna -x *node_modules* *bower_components* *git*
+zip -r nubia.zip nubia -x *node_modules* *bower_components* *git*
 ```
 
 This will exclude *node_modules*, *bower_components*, and *git* directories from the final zip file.
