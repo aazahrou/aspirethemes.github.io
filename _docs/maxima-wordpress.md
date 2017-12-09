@@ -102,7 +102,7 @@ You can create a normal menu with a custom link to the social media site, then y
 
 ![social-media-menu](/images/docs/wordpress/maxima/social-menu.png)
 
-Bold is using [Social Logos](https://github.com/Automattic/social-logos). You can look this [gallery](https://wpcalypso.wordpress.com/devdocs/design/social-logos) for all the available icons.
+Maxima is using [Social Logos](https://github.com/Automattic/social-logos). You can look this [gallery](https://wpcalypso.wordpress.com/devdocs/design/social-logos) for all the available icons.
 
 ---
 
