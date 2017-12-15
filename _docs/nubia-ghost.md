@@ -147,7 +147,7 @@ var instagramFeed = new Instafeed({
 });
 ```
 
-You can control how much images to show by changing the `limit` number. Theme default is set to `9` images.
+You can control how much images to show by changing the `limit` number. Theme default is set to `6` images.
 
 ---
 
