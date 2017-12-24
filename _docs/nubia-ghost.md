@@ -16,6 +16,7 @@ Current Version: 1.0.1 - 24 December 2017
 * [Search](#search)
 * [Tags Page](#tags-page)
 * [Authors Page](#authors-page)
+* [Contact Page](#contact-page)
 * [Disqus Comments](#disqus-comments)
 * [Instagram](#instagram)
 * [Posts Per Page](#posts-per-page)
@@ -100,6 +101,29 @@ To create the Authors page:
 - To add the page to the navigation, please check the [Navigation](#navigation) section above.
 
 ![static page](/images/docs/ghost/nubia/authors-page.png)
+
+---
+
+### Contact Page
+
+To create the Contact page:
+
+- Create a new post and call it `Contact` for example.
+- Add your content and the contact form code using [FORMSPREE](https://formspree.io/) as a service. Please check the  code example below.
+- Click the `Turn this post into a static page` checkbox.
+- Publish the page.
+- To add the page to the navigation, please check the [Navigation](#navigation) section above.
+
+```html
+<form action="https://formspree.io/your@email.com" method="POST">
+  <input type="text" name="name" placeholder="Name">
+  <input type="email" name="_replyto" placeholder="Email">
+  <textarea name='message' placeholder="Message"></textarea>
+  <input class='c-btn c-btn--small c-btn--active' type="submit" value="Send">
+</form>
+```
+
+For more information, check the [How to Add a Contact Form to Your Ghost Blog](https://aspirethemes.com/blog/ghost-contact-form) blog post.
 
 ---
 
