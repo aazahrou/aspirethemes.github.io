@@ -3,10 +3,9 @@ layout: doc
 title: Nubia
 categories: docs
 platform: Ghost
-status: review
 ---
 
-Current Version: In Review ...
+Current Version: 1.0 - 22 December 2017
 
 ---
 
