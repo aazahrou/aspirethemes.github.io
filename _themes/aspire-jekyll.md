@@ -4,7 +4,7 @@ name:         Aspire
 title:        Aspire - Clean News & Magazine Jekyll Theme
 date:         2017-5-9
 thumbnail:    images/themes/jekyll/aspire/preview.png
-price:        29
+price:        39
 categories:   themes
 type:         Jekyll
 body-class:   is-theme
