@@ -3,10 +3,9 @@ layout: doc
 title: Nubia
 categories: docs
 platform: Jekyll
-status: review
 ---
 
-Current Version: In Review ...
+Current Version: 1.0 - 4 Jan 2017
 
 ---
 
