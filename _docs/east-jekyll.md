@@ -173,7 +173,7 @@ Steps to integrate [MailChimp](http://mailchimp.com/) newsletter subscription fo
 * Copy that code and paste it in the form HTML element in `_includes/subscribe-form.html` where you can find the newsletter form.
 * You are done.
 
-![mailchimp-code](/images/docs/jekyll/east/mailchimp-code.png)
+![mailchimp-code](/images/docs/jekyll/shared/mailchimp-code.png)
 
 ---
 

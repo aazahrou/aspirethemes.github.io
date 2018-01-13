@@ -17,6 +17,7 @@ Current Version: 1.0.1 - 28 Sept 2017
 * [Disqus Comments](#disqus-comments)
 * [Twitter](#twitter)
 * [Instagram](#instagram)
+* [MailChimp](#mailchimp)
 * [Google Analytics](#google-analytics)
 * [Social Media Links](#social-media-links)
 * [Update favicon](#update-favicon)
@@ -210,6 +211,24 @@ var instagramFeed = new Instafeed({
 ```
 
 You can control how much images to show by changing the `limit` number. Theme default is set to `9` images.
+
+---
+
+### MailChimp
+
+Steps to integrate [MailChimp](http://mailchimp.com/) newsletter subscription form:
+
+* Create a mailing list from your MailChimp account, fill all the fields required and save it.
+* From the mailing list page, select **Signup forms**, then select **Embedded forms**.
+* Under the preview section, you will find the mailing form code. You will only need the form action value, like the highlighted code in the image blow.
+
+![mailchimp-code](/images/docs/jekyll/shared/mailchimp-code.png)
+
+* Copy that code and replace it with the current form action value located in `_includes/subscribe-form.html` file.
+
+![mailchimp-code](/images/docs/jekyll/aspire/subscribe-form.png)
+
+You are done.
 
 ---
 
