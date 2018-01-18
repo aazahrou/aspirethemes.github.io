@@ -139,59 +139,7 @@ Social media links are placed in:
 
 The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 
-Twitter
-
-```html
-<span data-icon='ei-sc-twitter' data-size='s'></span>
-```
-
-Facebook
-
-```html
-<span data-icon='ei-sc-facebook' data-size='s'></span>
-```
-
-Instagram
-
-```html
-<span data-icon='ei-sc-instagram' data-size='s'></span>
-```
-
-Pinterest
-
-```html
-<span data-icon='ei-sc-pinterest' data-size='s'></span>
-```
-
-Vimeo
-
-```html
-<span data-icon='ei-sc-vimeo' data-size='s'></span>
-```
-
-Google Plus
-
-```html
-<span data-icon='ei-sc-google-plus' data-size='s'></span>
-```
-
-SoundCloud
-
-```html
-<span data-icon='ei-sc-soundcloud' data-size='s'></span>
-```
-
-Tumblr
-
-```html
-<span data-icon='ei-sc-tumblr' data-size='s'></span>
-```
-
-Youtube
-
-```html
-<span data-icon='ei-sc-youtube' data-size='s'></span>
-```
+{% include evil-icons.liquid %}
 
 ---
 
