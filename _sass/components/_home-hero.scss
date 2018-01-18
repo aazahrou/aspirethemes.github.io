@@ -15,6 +15,10 @@
     padding: 180px 0;
   }
 
+  @include mq($from: large-desktop) {
+    padding: 250px 0;
+  }
+
   &__tagline {
     margin-bottom: 0;
     font-size: $font-size-base;
