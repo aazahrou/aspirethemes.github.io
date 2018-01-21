@@ -16,16 +16,10 @@
   type:       Jekyll
   screenshot: pixelnews.png
 
-- title:      The Guardant
-  url:        http://www.theguardant.com/
-  theme:      Aspire
-  type:       Ghost
-  screenshot: theguardant.png
-
 - title:      Noah Bershatsky
   url:        https://bershatsky.com/
   theme:      maxima
-  type:       Ghost
+  type:       WordPress
   screenshot: bershatsky.png
 
 - title:      DigitalFyre
@@ -76,12 +70,6 @@
   type:       WordPress
   screenshot: lleiengel.png
 
-- title:      Zambia Awakens
-  url:        http://zambiaawakens.com/
-  theme:      aspire
-  type:       WordPress
-  screenshot: zambiaawakens.png
-
 - title:      INSIGHT by expertDB
   url:        https://www.expertdb.com/blog/
   theme:      magaz
@@ -100,20 +88,8 @@
   type:       WordPress
   screenshot: anaesthesie.png
 
-- title:      MyCognition
-  url:        http://www.mycognition.com/blog/
-  theme:      east
-  type:       WordPress
-  screenshot: mycognition.png
-
 - title:      Axel Rock
   url:        http://axelrock.fr/
   theme:      east
   type:       Jekyll
   screenshot: axelrock.png
-
-- title:      Agent of Chaos
-  url:        http://agentof.ch/aos/
-  theme:      midan
-  type:       Ghost
-  screenshot: agentof.png
