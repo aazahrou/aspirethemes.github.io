@@ -1,7 +1,6 @@
 ---
 layout: doc
 title: Nubia
-status: review
 categories: docs
 platform: Ghost
 ---
