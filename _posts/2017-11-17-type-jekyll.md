@@ -25,10 +25,10 @@ Type comes featured with the following:
 ---
 
 <div class='o-grid'>
-  <div class='o-grid__col o-grid__col--2-4'>
+  <div class='o-grid__col o-grid__col--2-4-m'>
     <a href='https://type-jekyll.aspirethemes.com/' target='_blank' class='c-btn c-btn--primary c-btn--full'>Demo</a>
   </div>
-  <div class='o-grid__col o-grid__col--2-4'>
+  <div class='o-grid__col o-grid__col--2-4-m'>
     <a href='https://github.com/aspirethemes/type' target='_blank' class='c-btn c-btn--secondary c-btn--full'>Source Code</a>
   </div>
 </div>

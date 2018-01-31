@@ -12,15 +12,12 @@ disqus:           aspirethemes
 email:            aspirethemes@gmail.com
 mailto:           mailto:aspirethemes@gmail.com
 twitter:          http://www.twitter.com/aspirethemes
-slack:            http://slack.aspirethemes.com/
 medium:           https://medium.com/aspirethemes
-dribbble:         https://dribbble.com/aspirethemes
 github:           https://github.com/aspirethemes
 facebook:         https://www.facebook.com/aspirethemes
-instagram:        https://www.instagram.com/aspirethemes/
 themeforest:      https://themeforest.net/user/aspirethemes/portfolio?ref=aspirethemes
 creative_market:  https://creativemarket.com/aspirethemes
-upwork:           https://www.upwork.com/freelancers/~01b8a143dfeba1b95a
+pixelmoodle:      https://pixelmoodle.com/?utm_source=aspirethemes&utm_medium=footer
 
 permalink: /blog/:title
 post_dirs: false
