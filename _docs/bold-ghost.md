@@ -231,7 +231,95 @@ Ghost supports adding Facebook and Twitter profile URLs from the admin panel, go
 
 For using other social accounts, the theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 
-{% include evil-icons.liquid %}
+Facebook
+
+```html
+<span class='c-social-nav__icon' data-icon='ei-sc-facebook' data-size='s'></span>
+```
+
+GitHub
+
+```html
+<span class='c-social-nav__icon' data-icon='ei-sc-github' data-size='s'></span>
+```
+
+Google Plus
+
+```html
+<span class='c-social-nav__icon' data-icon='ei-sc-google-plus' data-size='s'></span>
+```
+
+Instagram
+
+```html
+<span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span>
+```
+
+LinkedIn
+
+```html
+<span class='c-social-nav__icon' data-icon='ei-sc-linkedin' data-size='s'></span>
+```
+
+Odnoklassniki
+
+```html
+<span class='c-social-nav__icon' data-icon='ei-sc-odnoklassniki' data-size='s'></span>
+```
+
+Pinterest
+
+```html
+<span class='c-social-nav__icon' data-icon='ei-sc-pinterest' data-size='s'></span>
+```
+
+Skype
+
+```html
+<span class='c-social-nav__icon' data-icon='ei-sc-skype' data-size='s'></span>
+```
+
+SoundCloud
+
+```html
+<span class='c-social-nav__icon' data-icon='ei-sc-soundcloud' data-size='s'></span>
+```
+
+Telegram
+
+```html
+<span class='c-social-nav__icon' data-icon='ei-sc-telegram' data-size='s'></span>
+```
+
+Tumblr
+
+```html
+<span class='c-social-nav__icon' data-icon='ei-sc-tumblr' data-size='s'></span>
+```
+
+Twitter
+
+```html
+<span class='c-social-nav__icon' data-icon='ei-sc-twitter' data-size='s'></span>
+```
+
+Vimeo
+
+```html
+<span class='c-social-nav__icon' data-icon='ei-sc-vimeo' data-size='s'></span>
+```
+
+VK
+
+```html
+<span class='c-social-nav__icon' data-icon='ei-sc-vk' data-size='s'></span>
+```
+
+Youtube
+
+```html
+<span class='c-social-nav__icon' data-icon='ei-sc-youtube' data-size='s'></span>
+```
 
 To edit or update other excisted and static social links, let's take an example from `partials/social-nav.hbs` file, for exmaple, the Instagram code block:
 
