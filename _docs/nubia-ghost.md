@@ -270,7 +270,7 @@ The favicon in Ghost 1.0 could be changed from the [Blog settings](https://help.
 
 If you are a developer and need to do customization work, the theme is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript. This improves the development flow and making it much faster.
 
-First, make sure you have [Node.js](https://nodejs.org/en/), [npm](https://www.npmjs.com/), and [Bower](https://bower.io/#install-bower) installed, then run the-the following commands in the theme root directory to install *npm* and *bower* dependencies.
+First, make sure you have [**Node.js**](https://nodejs.org/en/), [**npm**](https://www.npmjs.com/), and [**Bower**](https://bower.io/#install-bower) installed, then run the-the following command in the theme root directory to install *npm* and *bower* dependencies.
 
 ```sh
 npm install
