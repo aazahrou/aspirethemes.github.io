@@ -28,7 +28,7 @@ Current Version: 1.2.1 - 20 November 2017
 ### Theme Installation
 
 * Log into the admin section of your Ghost blog `yourblog.com/ghost`.
-* Select `General` from the left hand side of your admin area and scroll to the bottom **Themes** section.
+* Select `General` from the left-hand side of your admin area and scroll to the bottom **Themes** section.
 * Click on the `Upload a Theme` green button.
 * An upload box will open, then choose the theme (*magaz.zip*) within the downloaded package.
 * Once uploaded, click on `Activate now` button to activate the theme immediately or `Close` if you want to activate it later.
@@ -37,7 +37,7 @@ Current Version: 1.2.1 - 20 November 2017
 
 ### Static Pages
 
-In order to create a static page you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
+In order to create a static page, you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
 
 ![static page](/images/docs/ghost/shared/staticpage.png)
 

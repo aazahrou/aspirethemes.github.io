@@ -78,7 +78,7 @@ WordPress customizer is a tool which allows you to edit all the style options fr
 
 #### Footer Copyright
 
-Maxima has an option to edit the footer copy right options, from the customizer window, choose `Site Identity > Footer Copyright` to easily update the copyright text.
+Maxima has an option to edit the footer copyright options, from the customizer window, choose `Site Identity > Footer Copyright` to easily update the copyright text.
 
 ---
 
@@ -88,7 +88,7 @@ Maxima theme includes multiple widgets areas.
 
 Widgets can be added to these areas by navigating to `Appearance > Widgets`.
 
-The footer section has four registered widget sections and the Sidebar (Off canvas) area has widgets support
+The footer section has four registered widget sections and the Sidebar (Off-canvas) area has widgets support
 
 ![Widgets](/images/docs/wordpress/maxima/widgets.png)
 
@@ -108,9 +108,9 @@ Maxima is using [Social Logos](https://github.com/Automattic/social-logos). You 
 
 ### Translation
 
-Maxima theme is full ready to be translated into other languages and could be easily translated with [poedit.net](https://poedit.net/) application.
+Maxima theme is fully ready to be translated into other languages and could be easily translated with [poedit.net](https://poedit.net/) application.
 
-The theme contains the main translation file `maxima.pot` inside the languages directory which will be used by poedit application.
+The theme contains the main translation file `maxima.pot` inside the languages directory which will be used by the poedit application.
 
 Here are simple steps:
 

@@ -96,7 +96,7 @@ I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/de
 
 To create a new post, you can create a new markdown file inside the `_posts` directory by following the [recommended file structure](https://jekyllrb.com/docs/posts/#creating-post-files).
 
-The following is a post file with different configurations you can add as example:
+The following is a post file with different configurations you can add as an example:
 
 ```sh
 ---
@@ -178,7 +178,7 @@ And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/p
 To set up the Twitter feed:
 
 * Go to [publish.twitter.com](https://publish.twitter.com/).
-* Enter a Twitter URl into the input box and press *Enter*.
+* Enter a Twitter URL into the input box and press *Enter*.
 * Select *Embedded Timeline*.
 * You will see a Timeline preview and you can customize it as required.
 * Copy the code by clicking the *Copy Code* button.
@@ -220,7 +220,7 @@ Steps to integrate [MailChimp](http://mailchimp.com/) newsletter subscription fo
 
 * Create a mailing list from your MailChimp account, fill all the fields required and save it.
 * From the mailing list page, select **Signup forms**, then select **Embedded forms**.
-* Under the preview section, you will find the mailing form code. You will only need the form action value, like the highlighted code in the image blow.
+* Under the preview section, you will find the mailing form code. You will only need the form action value, like the highlighted code in the image below.
 
 ![mailchimp-code](/images/docs/jekyll/shared/mailchimp-code.png)
 

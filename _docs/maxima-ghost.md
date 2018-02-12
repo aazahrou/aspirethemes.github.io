@@ -37,7 +37,7 @@ Current Version: 1.1.7 - 23 November 2017
 
 ### Static Pages
 
-In order to create a static page you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
+In order to create a static page, you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
 
 ![static page](/images/docs/ghost/shared/staticpage.png)
 
@@ -68,7 +68,7 @@ For the search to work properly, please enable the [Public API Beta](http://supp
 To enable the tags page:
 
 - Enable the [Public API Beta](http://support.ghost.org/public-api-beta/).
-- Create a new post and call it `Tags` for example, and make sure that the POST URl is `tags`.
+- Create a new post and call it `Tags` for example, and make sure that the POST URL is `tags`.
 - Click the `Turn this post into a static page` checkbox.
 - Publish the page.
 - To add the page to the navigation, please check the [Navigation](#navigation) section above.

@@ -51,7 +51,7 @@ WordPress customizer is a tool which allows you to edit all the style options fr
 
 #### Logo
 
-From the customizer window, choose **Theme Options > Header** to upload you custom logo
+From the customizer window, choose **Theme Options > Header** to upload your custom logo
 
 #### Header Search Icon
 
@@ -67,7 +67,7 @@ From the customizer window, choose **Theme Options > Footer** to easily update t
 
 ### Widgets
 
-East theme includes multiple widgets areas.
+The East theme includes multiple widgets areas.
 
 Widgets can be added to these areas by navigating to "Appearance > Widgets".
 
@@ -145,9 +145,9 @@ The following are the social media sites and services where you can find an icon
 
 ### Translation
 
-East theme is full ready to be translated into other languages and could be easily translated with [poedit.net](https://poedit.net/) application.
+The East theme is fully ready to be translated into other languages and could be easily translated with [poedit.net](https://poedit.net/) application.
 
-The theme contains the main translation file `east.pot` inside the languages directory which will be used by poedit application.
+The theme contains the main translation file `east.pot` inside the languages directory which will be used by the poedit application.
 
 **Here are simple steps:**
 

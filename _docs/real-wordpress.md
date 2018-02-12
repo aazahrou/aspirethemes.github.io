@@ -51,7 +51,7 @@ WordPress customizer is a tool which allows you to edit all the style options fr
 
 #### Logo
 
-From the customizer window, choose **Theme Options > Header** to upload you custom logo.
+From the customizer window, choose **Theme Options > Header** to upload your custom logo.
 
 #### Header Search Icon
 
@@ -67,7 +67,7 @@ From the customizer window, choose **Theme Options > Footer** to easily update t
 
 ### Widgets
 
-Real theme includes multiple widgets areas.
+The Real theme includes multiple widgets areas.
 
 Widgets can be added to these areas by navigating to "Appearance > Widgets".
 

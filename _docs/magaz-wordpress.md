@@ -68,7 +68,7 @@ From the customizer window, choose **Theme Options > Footer** to easily update t
 
 ### Widgets
 
-Magaz theme includes multiple widgets areas.
+The Magaz theme includes multiple widgets areas.
 
 Widgets can be added to these areas by navigating to "Appearance > Widgets".
 
@@ -156,9 +156,9 @@ Magze is using [WPCustom Category Image](https://wordpress.org/plugins/wpcustom-
 
 ### Translation
 
-Magaz theme is full ready to be translated into other languages and could be easily translated with [poedit.net](https://poedit.net/) application.
+The Magaz theme is fully ready to be translated into other languages and could be easily translated with [poedit.net](https://poedit.net/) application.
 
-The theme contains the main translation file `magaz.pot` inside the languages directory which will be used by poedit application.
+The theme contains the main translation file `magaz.pot` inside the languages directory which will be used by the poedit application.
 
 **Here are simple steps:**
 

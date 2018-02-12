@@ -90,7 +90,7 @@ I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/de
 
 To create a new post, you can create a new markdown file inside the `_posts` directory by following the [recommended file structure](https://jekyllrb.com/docs/posts/#creating-post-files).
 
-The following is a post file with different configurations you can add as example:
+The following is a post file with different configurations you can add as an example:
 
 ```sh
 ---
@@ -169,7 +169,7 @@ Steps to integrate [MailChimp](http://mailchimp.com/) newsletter subscription fo
 
 * Create a mailing list from your MailChimp account, fill all the fields required and save it.
 * From the list page, select **Signup forms**, then select **Embedded forms**.
-* You may want to change or edit the form fields, or customize the form in general, after you have done and everything is OK, you will be provided by HTML code, what we need to integrate with East theme is the code in the action element, like the highlighted code in the image blow.
+* You may want to change or edit the form fields, or customize the form in general, after you have done and everything is OK, you will be provided by HTML code, what we need to integrate with East theme is the code in the action element, like the highlighted code in the image below.
 * Copy that code and paste it in the form HTML element in `_includes/subscribe-form.html` where you can find the newsletter form.
 * You are done.
 

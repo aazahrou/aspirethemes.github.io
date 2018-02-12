@@ -38,10 +38,10 @@ This is a quick video showing how to install the theme, upload blog cover image,
 
 ---
 
-Also, you can follow the follwing steps to install the theme:
+Also, you can follow the following steps to install the theme:
 
 * Log into the admin section of your Ghost blog `yourblog.com/ghost`.
-* Select `Design` from the left hand side of your admin area and scroll to the bottom **Themes** section.
+* Select `Design` from the left-hand side of your admin area and scroll to the bottom **Themes** section.
 * Click on the `Upload a Theme` green button.
 * An upload box will open, then choose the theme (*bold.zip*) within the downloaded package.
 * Once uploaded, click on `Activate now` button to activate the theme immediately or `Close` if you want to activate it later.
@@ -58,7 +58,7 @@ Public API is important for some functionality like search, tags page, and subsc
 
 ### Static Pages
 
-In order to create a static page you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
+In order to create a static page, you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
 
 ![static page](/images/docs/ghost/bold/static-page.png)
 
@@ -68,7 +68,7 @@ In order to create a static page you create a new post, just like you would any 
 
 ![header left logo code](/images/docs/ghost/bold/header-left-logo.png)
 
-If you want to enable the left logo alternative header layout, open the `partials/header.hbs` file and add the `c-header--left-logo` to the header class and that's all what you need to do.
+If you want to enable the left logo alternative header layout, open the `partials/header.hbs` file and add the `c-header--left-logo` to the header class and that's all that you need to do.
 
 ![header left logo](/images/docs/ghost/bold/header-left-logo-code.png)
 
@@ -117,7 +117,7 @@ For the search to work properly, please make sure that the [Public API](#enable-
 To create the tags page:
 
 - Enable the [Public API](#enable-the-public-api).
-- Create a new post and call it `Tags` for example, and make sure that the POST URl is `tags`.
+- Create a new post and call it `Tags` for example, and make sure that the POST URL is `tags`.
 - Click the `Turn this post into a static page` checkbox.
 - Publish the page.
 - To add the page to the navigation, please check the [Navigation](#navigation) section above.
@@ -349,7 +349,7 @@ the new code will be:
 </li>
 ```
 
-If you want to completly remove Instagram, you can delete all the code block, the `li`, `a`, and the icon.
+If you want to completely remove Instagram, you can delete all the code block, the `li`, `a`, and the icon.
 
 ---
 

@@ -28,7 +28,7 @@ Current Version: 1.2.1 - 20 November 2017
 ### Theme Installation
 
 * Log into the admin section of your Ghost blog `yourblog.com/ghost`.
-* Select `Design` from the left hand side of your admin area and go to the **Themes** section.
+* Select `Design` from the left-hand side of your admin area and go to the **Themes** section.
 * Click on the `Upload a Theme` green button.
 * An upload box will open, then choose the theme (*east.zip*) within the downloaded package.
 * Once uploaded, click on `Activate now` button to activate the theme immediately or `Close` if you want to activate it later.
@@ -37,7 +37,7 @@ Current Version: 1.2.1 - 20 November 2017
 
 ### Static Pages
 
-In order to create a static page you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
+In order to create a static page, you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
 
 ![static page](/images/docs/ghost/shared/staticpage.png)
 
@@ -68,7 +68,7 @@ For the search to work properly, please enable the [Public API Beta](http://supp
 To enable the tags page:
 
 - Enable the [Public API Beta](http://support.ghost.org/public-api-beta/).
-- Create a new post and call it `Tags` for example, and make sure that the POST URl is `tags`.
+- Create a new post and call it `Tags` for example, and make sure that the POST URL is `tags`.
 - Click the `Turn this post into a static page` checkbox.
 - Publish the page.
 - To add the page to the navigation, please check the [Navigation](#navigation) section above.
@@ -145,7 +145,7 @@ For using other social accounts, the theme is using [Evil Icons](http://evil-ico
 
 {% include evil-icons.liquid %}
 
-To edit or update other excisted and static social links, let's take an example from `partials/sidebar.hbs` file, for exmaple, the Instagram code block:
+To edit or update other existed and static social links, let's take an example from `partials/sidebar.hbs` file, for example, the Instagram code block:
 
 ```html
 <li>
@@ -167,7 +167,7 @@ Next, replace your Instagram username with `{% raw %}{{! Add Instagram handle }}
 </li>
 ```
 
-If you want to completly remove Instagram, you can delete all the code block, the `li`, `a`, and the icon.
+If you want to completely remove Instagram, you can delete all the code block, the `li`, `a`, and the icon.
 
 ---
 

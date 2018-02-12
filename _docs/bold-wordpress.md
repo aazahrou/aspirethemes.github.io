@@ -58,7 +58,7 @@ This is a quick video showing how to install the theme and import the demo conte
 2. Navigate the to the WordPress directory, and follow the path **wp-content/themes**.
 3. Extract **bold.zip** file (it’s in the zip file you downloaded) and upload the bold folder.
 4. Once it’s uploaded, go to your WordPress Dashboard, browse to **Appearance > Themes**.
-5. You will see the screenshot for Bold theme, just click the **Activate** link and you are ready to go.
+5. You will see the screenshot for the Bold theme, just click the **Activate** link and you are ready to go.
 
 ---
 
@@ -86,14 +86,14 @@ This is where you can set different things:
 
 1. Upload a site logo.
 2. Set the Site Title and Tagline.
-3. Set the footer copy right content, this support HTML coding, if this is not set, the copyright will be as like `© 2017 Bold`.
+3. Set the footer copyright content, this support HTML coding, if this is not set, the copyright will be as like `© 2017 Bold`.
 4. You can also hide or show the header search icon.
 5. Display or hide Site Title and Tagline on the [Home Hero](#home-hero) section.
 6. Upload the site icon (favicon) which is used as a browser and app icon for your site.
 
 ##### Header Image
 
-In this section, you can set the Header Image which will then bu used in the [Home Hero](#home-hero) section.
+In this section, you can set the Header Image which will then be used in the [Home Hero](#home-hero) section.
 
 ##### Menus
 
@@ -101,15 +101,15 @@ Here you can create a new menu, add links to it set the menu location.
 
 ##### Widgets
 
-This will help you control the widgets which are supported in the site footer, you can add new widget or remove one.
+This will help you control the widgets which are supported in the site footer, you can add a new widget or remove one.
 
 ##### Static Front Page
 
-Here you can set the homepage for your website. It could be the blog page with a list of posts, ot it could be a page like the about page for example.
+Here you can set the homepage for your website. It could be the blog page with a list of posts, or it could be a page like the about page for example.
 
 ##### Additional CSS
 
-This is a great place if you want to add more CSS stylying to your website.
+This is a great place if you want to add more CSS styling to your website.
 
 ---
 
@@ -129,7 +129,7 @@ This is a great place if you want to add more CSS stylying to your website.
 
 ---
 
-To create the excerpt content on the post card, put your cursor where you want to end the excerpted content of your post and click the **more** quicktag button.
+To create the excerpt content on the post card, put your cursor where you want to end the excerpted content of your post and click the **more** quick tag button.
 
 ![Excerpet Button](/images/docs/wordpress/bold/excerpet-button.png)
 
@@ -170,7 +170,7 @@ To create a new menu:
 
 1. Navigate to **WordPress Dashboard > Appearance > Menus**
 2. You can see a panel where you can create a new menu, click **create a new menu** link to create one.
-3. Give the new mene a name, for example, *Primary Menu*, then click the **Create Menu** button to craete it.
+3. Give the new menu a name, for example, *Primary Menu*, then click the **Create Menu** button to create it.
 2. From the drop-downs on the left, choose the content to add to your menu.
 3. Nest & position menu items by dragging & dropping them.
 3. Be sure to check the box to set the menu as "Primary Menu" from the **Display location** option.
@@ -202,7 +202,7 @@ To set the *Tagline*, go to **Appearance > Customize** then **Site Identity**.
 
 To set the *Header Image*, go to **Appearance > Customize** then **Header Image**.
 
-If the *Header Image* is not exist, the hero section will be hidden, but you can show only the *Header Image* without the *Tagline*.
+If the *Header Image* does not exist, the hero section will be hidden, but you can show only the *Header Image* without the *Tagline*.
 
 ---
 
@@ -215,8 +215,8 @@ The first thing you can do is to install and activate the [Contact Form 7](https
 - From WordPress Dashboard, navigate to **Contact > Add new**.
 - Now you are on the contact form page, set a form title, then and you can see different tabs which are the following:
   - **Form**: You can customize the form and how it will look like with some simple HTML code.
-  - **Mail**: You can set direrernt things like you email address and customize the message body.
-  - **Messages**: You can set different messages visitors can see in different senarios while sending a message.
+  - **Mail**: You can set different things like your email address and customize the message body.
+  - **Messages**: You can set different messages visitors can see in different scenarios while sending a message.
   - **Additional Settings**: You can add customization code snippets.
 - Once finished the form customization, click the **Save** button.
 - Once saved, you will get a new code snippet highlighted in blue. This code will be used with the WordPress page, so please copy it.
@@ -233,21 +233,21 @@ The first thing you can do is to install and activate the [Contact Form 7](https
 
 The demo is using the [Tiled Galleries](https://jetpack.com/support/tiled-galleries/) which is a Jetpack add-on that enables to display your galleries in different new styles.
 
-First, install [Jetpack](https://wordpress.org/plugins/jetpack/) and then follow this [guide](https://jetpack.com/support/tiled-galleries/) which will introduce you to Tiled Galleries and how to confugure and create new galleries with it.
+First, install [Jetpack](https://wordpress.org/plugins/jetpack/) and then follow this [guide](https://jetpack.com/support/tiled-galleries/) which will introduce you to Tiled Galleries and how to configure and create new galleries with it.
 
 ---
 
 ### Translation
 
-Bold theme is full ready to be translated into other languages and could be easily translated with [poedit.net](https://poedit.net/) application.
+The Bold theme is fully ready to be translated into other languages and could be easily translated with [poedit.net](https://poedit.net/) application.
 
-The theme contains the main translation file `bold.pot` inside the languages directory which will be used by poedit application.
+The theme contains the main translation file `bold.pot` inside the languages directory which will be used by the poedit application.
 
 Here are simple steps:
 
 1. Install poedit and open it.
 2. Once the app is opened click Create new translation.
-3. Choose the `bold.pot` file inside the theme `bold/language` directory.
+3. Choose `bold.pot` the file inside the theme `bold/language` directory.
 4. Once the translation is done, save the file according to your language code. Find a list of language codes at [WordPress in your Language](https://make.wordpress.org/polyglots/teams/). As an example, the language code for English (UK) is `en_GB`, so you will end up with two new files: `en_GB.po` and then `en_GB.mo`.
 5. When that’s done, simply upload the files to `bold/language` folder using FTP.
 6. Change the site language by going to `WordPress > General > Settings` and choose the target language from `Site Language` drop-down menu.

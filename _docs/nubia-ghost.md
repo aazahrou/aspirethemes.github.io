@@ -5,7 +5,7 @@ categories: docs
 platform: Ghost
 ---
 
-Current Version: 1.0.2 - 1 Feb 2018
+Current Version: 1.0.3 - 12 Feb 2018
 
 ---
 
@@ -33,7 +33,7 @@ Current Version: 1.0.2 - 1 Feb 2018
 ### Theme Installation
 
 * Log into the admin section of your Ghost blog `yourblog.com/ghost`.
-* Select `Design` from the left hand side of your admin area and go to the **Themes** section.
+* Select `Design` from the left-hand side of your admin area and go to the **Themes** section.
 * Click on the `Upload a Theme` green button.
 * An upload box will open, then choose the theme (*nubia.zip*) within the downloaded package.
 * Once uploaded, click on `Activate now` button to activate the theme immediately or `Close` if you want to activate it later.
@@ -50,7 +50,7 @@ Public API is important for some functionality like search, tags page, and subsc
 
 ### Static Pages
 
-In order to create a static page you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
+In order to create a static page, you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
 
 ![static page](/images/docs/ghost/shared/staticpage.png)
 
@@ -81,7 +81,7 @@ For the search to work properly, please make sure that the [Public API](#enable-
 To create the tags page:
 
 - Enable the [Public API](#enable-the-public-api).
-- Create a new post and call it `Tags` for example, and make sure that the POST URl is `tags`.
+- Create a new post and call it `Tags` for example, and make sure that the POST URL is `tags`.
 - Click the `Turn this post into a static page` checkbox.
 - Publish the page.
 - To add the page to the navigation, please check the [Navigation](#navigation) section above.
@@ -95,7 +95,7 @@ To create the tags page:
 To create the Authors page:
 
 - Enable the [Public API](#enable-the-public-api).
-- Create a new post and call it `Authors` for example, and make sure that the POST URl is `authors`.
+- Create a new post and call it `Authors` for example, and make sure that the POST URL is `authors`.
 - Click the `Turn this post into a static page` checkbox.
 - Publish the page.
 - To add the page to the navigation, please check the [Navigation](#navigation) section above.
@@ -109,7 +109,7 @@ To create the Authors page:
 To create the Contact page:
 
 - Create a new post and call it `Contact` for example.
-- Add your content and the contact form code using [FORMSPREE](https://formspree.io/) as a service. Please check the  code example below.
+- Add your content and the contact form code using [FORMSPREE](https://formspree.io/) as a service. Please check the code example below.
 - Click the `Turn this post into a static page` checkbox.
 - Publish the page.
 - To add the page to the navigation, please check the [Navigation](#navigation) section above.
@@ -254,7 +254,7 @@ the new code will be:
 </li>
 ```
 
-If you want to completly remove Instagram, you can delete all the code block, the `li`, `a`, and the icon.
+If you want to completely remove Instagram, you can delete all the code block, the `li`, `a`, and the icon.
 
 ---
 
