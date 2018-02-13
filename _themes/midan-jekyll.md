@@ -11,7 +11,10 @@ body-class:   is-theme
 demo:         http://midan-jekyll.aspirethemes.com/
 docs:         /docs/midan-jekyll
 purchase:     https://themeforest.net/item/midan-clean-and-fast-jekyll-blog-theme/17159216?ref=aspirethemes
-description:  Midan is a clean, minimal, modern theme that focus on content for Jekyll.
+description:  Midan is a clean, minimal, modern theme that focus on content for Jekyll
+seo:
+  type:
+    SoftwareApplication
 features:
   - Clean Design
   - Responsive Layout

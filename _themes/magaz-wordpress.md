@@ -10,7 +10,10 @@ body-class:   is-theme
 demo:         http://magaz-wordpress.aspirethemes.com/
 docs:         /docs/magaz-wordpress
 purchase:     https://github.com/aspirethemes/magaz
-description:  Magaz is a modern, clean, minimal, content and image focus theme for WordPress.
+description:  Magaz is a modern, clean, minimal, content and image focus theme for WordPress
+seo:
+  type:
+    SoftwareApplication
 features:
   - Minimal Design
   - Mobile Responsive

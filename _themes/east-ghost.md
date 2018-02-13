@@ -11,7 +11,10 @@ body-class:   is-theme
 demo:         http://east.aspirethemes.com/
 docs:         /docs/east-ghost
 purchase:     http://themeforest.net/item/east-blog-and-multipurpose-clean-ghost-theme/14714255?ref=aspirethemes
-description:  East is a clean, minimal, modern theme that focus on content for Ghost.
+description:  East is a clean, minimal, modern theme that focus on content for Ghost
+seo:
+  type:
+    SoftwareApplication
 features:
   - Clean Design
   - Responsive Layout

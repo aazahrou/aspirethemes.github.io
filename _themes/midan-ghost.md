@@ -11,7 +11,10 @@ body-class:   is-theme
 demo:         http://midan.aspirethemes.com/
 docs:         /docs/midan-ghost
 purchase:     https://gum.co/gNEIH
-description:  Midan is a clean, minimal, modern theme that focuses on content for Ghost.
+description:  Midan is a clean, minimal, modern theme that focuses on content for Ghost
+seo:
+  type:
+    SoftwareApplication
 features:
   - Clean Design
   - Responsive Layout

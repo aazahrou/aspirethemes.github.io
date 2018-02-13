@@ -12,6 +12,9 @@ demo:         http://aspire.aspirethemes.com/
 docs:         /docs/aspire-ghost
 purchase:     http://themeforest.net/item/aspire-news-magazine-clean-ghost-theme/14230254?ref=aspirethemes
 description:  Incredibly Fast and Powerful Ghost Theme
+seo:
+  type:
+    SoftwareApplication
 features:
   - Clean Design
   - Responsive Layout

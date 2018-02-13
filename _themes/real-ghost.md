@@ -12,6 +12,9 @@ demo:         http://real.aspirethemes.com/
 docs:         /docs/real-ghost
 purchase:     https://themeforest.net/item/real-blog-and-magazine-clean-ghost-theme/17375799?ref=aspirethemes
 description:  Real is a modern, clean, and content and image focus theme for Ghost blogging platform.
+seo:
+  type:
+    SoftwareApplication
 features:
   - Clean Design
   - Responsive Layout

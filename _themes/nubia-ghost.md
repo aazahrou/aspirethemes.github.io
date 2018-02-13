@@ -12,6 +12,9 @@ demo:         http://nubia.aspirethemes.com/
 docs:         /docs/nubia-ghost
 purchase:     https://themeforest.net/item/nubia-responsive-multipurpose-ghost-theme/21076246?ref=aspirethemes
 description:  Make Your Blog Beautiful & Make It Fast
+seo:
+  type:
+    SoftwareApplication
 features:
   - Clean Design
   - Responsive Layout

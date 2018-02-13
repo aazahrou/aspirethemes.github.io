@@ -12,6 +12,9 @@ demo:         http://bold.aspirethemes.com/
 docs:         /docs/bold-ghost
 purchase:     https://themeforest.net/item/bold-blog-and-magazine-clean-ghost-theme/19663870
 description:  Blog and Magazine Clean Ghost Theme
+seo:
+  type:
+    SoftwareApplication
 features:
   - Clean Design
   - Responsive Layout

@@ -11,7 +11,10 @@ body-class:   is-theme
 demo:         http://east-wordpress.aspirethemes.com/
 docs:         /docs/east-wordpress
 purchase:     http://themeforest.net/item/east-clean-minimal-wordpress-blog-theme/15349397?ref=aspirethemes
-description:  East is a modern, clean, and minimal WordPress theme for your next blog.
+description:  East is a modern, clean, and minimal WordPress theme for your next blog
+seo:
+  type:
+    SoftwareApplication
 features:
   - Minimal Design
   - Mobile Responsive
