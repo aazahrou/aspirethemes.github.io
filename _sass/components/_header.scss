@@ -14,14 +14,4 @@
 
     border-bottom: 1px solid $color-border;
   }
-
-  &__logo {
-    font-weight: $font-weight-medium;
-
-    @include attention() {
-      text-decoration: none;
-
-      color: $color-brand;
-    }
-  }
 }

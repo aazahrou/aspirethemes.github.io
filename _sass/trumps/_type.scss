@@ -2,6 +2,11 @@
   Trumbs > Typography
 \*------------------------------------*/
 
+.u-font-base  {
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+}
+
 .u-font-medium  {
   font-size: $font-size-medium;
   line-height: $line-height-medium;
@@ -15,4 +20,8 @@
 .u-font-tiny {
   font-size: $font-size-tiny;
   line-height: $line-height-tiny;
+}
+
+.u-font-bold {
+  font-weight: $font-weight-bold;
 }

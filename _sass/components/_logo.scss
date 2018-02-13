@@ -1,0 +1,21 @@
+/*------------------------------------*\
+  Components > Logo
+\*------------------------------------*/
+
+.c-logo {
+  h1 {
+    margin-bottom: 0;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+  }
+
+  &__link {
+    font-weight: $font-weight-medium;
+
+    @include attention() {
+      text-decoration: none;
+
+      color: $color-brand;
+    }
+  }
+}
