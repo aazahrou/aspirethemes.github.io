@@ -2,7 +2,7 @@
 layout: page
 title: Rate an Item at Themeforest
 permalink: /rate
-thumbnail: '/images/assets/rate.png'
+image: '/images/assets/rate.png'
 ---
 
 You can follow these simple steps to rate an Aspire Themes theme you have purchased.
