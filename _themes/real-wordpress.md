@@ -3,7 +3,7 @@ layout:       theme
 name:         Real
 title:        Real - Blog and Magazine Clean WordPress Theme
 date:         2016-10-28
-thumbnail:    images/themes/wordpress/real/preview.png
+image:        images/themes/wordpress/real/preview.png
 price:        49
 categories:   themes
 type:         WordPress

@@ -3,7 +3,7 @@ layout:       theme
 name:         Magaz
 title:        Magaz
 date:         2016-5-17
-thumbnail:    images/themes/wordpress/magaz/preview.png
+image:        images/themes/wordpress/magaz/preview.png
 categories:   themes
 type:         WordPress
 body-class:   is-theme

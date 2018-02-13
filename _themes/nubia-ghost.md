@@ -3,7 +3,7 @@ layout:       theme
 name:         Nubia
 title:        Nubia - Responsive & Multipurpose Ghost Theme
 date:         2018-01-31
-thumbnail:    images/themes/ghost/nubia/preview.png
+image:        images/themes/ghost/nubia/preview.png
 price:        39
 categories:   themes
 type:         Ghost

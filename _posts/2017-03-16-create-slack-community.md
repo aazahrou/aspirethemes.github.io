@@ -2,7 +2,7 @@
 layout: post
 title: Create Your Own Public Slack Chat Community with Slackin
 tags: [community, tips, slack]
-thumbnail: '/images/posts/slack/slakin-banner.png'
+image: '/images/posts/slack/slakin-banner.png'
 ---
 
 I was looking to create a Slack channel for [Aspire Themes](https://aspirethemes.com/?utm_source=medium&utm_medium=articles) where I and my customers can discuss, share, and get fast support with Slack. The one thing I worried about is how anyone can get an invitation and join the channel easily.

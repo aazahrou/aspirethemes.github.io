@@ -2,7 +2,7 @@
 layout: post
 title: Push WordPress and Ghost Themes to DigitalOcean with Bash Script
 tags: [WordPress, Ghost, DigitalOcean, BashScript]
-thumbnail: '/images/posts/digitalocean/digitalocean.png'
+image: '/images/posts/digitalocean/digitalocean.png'
 ---
 
 While we develop themes as developers, we need to test them with a remote server, and this test happens a lot of times a day while working. This requires to move to the themes directory, zip the theme file, login to the server using ssh, then push the zip file to the remote server, then login to WordPress to activate the theme, or in the Ghost case, we need to restart the Ghost server for changes to reflect. All of these processes will take a lot of time and they are boring to do again and again.

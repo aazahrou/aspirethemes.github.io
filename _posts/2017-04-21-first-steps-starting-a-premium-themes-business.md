@@ -2,7 +2,7 @@
 layout: post
 title: First Steps Starting a Premium Themes Business
 tags: [business, themes, tips, themeforest]
-thumbnail: '/images/posts/start-business/cover.png'
+image: '/images/posts/start-business/cover.png'
 ---
 
 I can remember about 4 years ago, I started to make HTML templates for Themeforest, but unfortunately, I totally failed to pass the quality stage and I was not getting enough feedback from them, just a general sentence saying that my item is not ready yet and the design quality is not unique enough.

@@ -5,19 +5,18 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-title:            Aspire Themes
-description:      Elegant WordPress, Ghost & Jekyll Themes
-url:              https://aspirethemes.com
-disqus:           aspirethemes
-email:            aspirethemes@gmail.com
-mailto:           mailto:aspirethemes@gmail.com
-twitter:          http://www.twitter.com/aspirethemes
-medium:           https://medium.com/aspirethemes
-github:           https://github.com/aspirethemes
-facebook:         https://www.facebook.com/aspirethemes
-themeforest:      https://themeforest.net/user/aspirethemes/portfolio?ref=aspirethemes
-creative_market:  https://creativemarket.com/aspirethemes
-pixelmoodle:      https://pixelmoodle.com/?utm_source=aspirethemes&utm_medium=footer
+title:              Aspire Themes
+description:        Elegant WordPress, Ghost & Jekyll Themes
+url:                https://aspirethemes.com
+disqus:             aspirethemes
+email:              aspirethemes@gmail.com
+mailto:             mailto:aspirethemes@gmail.com
+twitter_url:        https://twitter.com/aspirethemes
+medium_url:         https://medium.com/aspirethemes
+github_url:         https://github.com/aspirethemes
+facebook_url:       https://www.facebook.com/aspirethemes
+themeforest_url:    https://themeforest.net/user/aspirethemes/portfolio?ref=aspirethemes
+creativemarket_url: https://creativemarket.com/aspirethemes
 
 permalink: /blog/:title
 post_dirs: false
@@ -25,14 +24,6 @@ markdown: kramdown
 
 include:
   - _pages
-
-plugins:
-  - jekyll-sitemap
-  - jekyll/tagging
-
-tag_page_dir:        tag
-tag_page_layout:     tag_page
-tag_permalink_style: pretty
 
 sass:
   style: compressed
@@ -47,3 +38,26 @@ collections:
   docs:
     output: true
     permalink: /docs/:path/
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll/tagging
+
+# Jekyll Tagging
+tag_page_dir:        tag
+tag_page_layout:     tag_page
+tag_permalink_style: pretty
+
+# Jekyll SEO Tag
+twitter:
+  username: aspirethemes
+
+social:
+  links:
+    - http://www.twitter.com/aspirethemes
+    - https://medium.com/aspirethemes
+    - https://github.com/aspirethemes
+    - https://www.facebook.com/aspirethemes
+    - https://themeforest.net/user/aspirethemes
+    - https://creativemarket.com/aspirethemes

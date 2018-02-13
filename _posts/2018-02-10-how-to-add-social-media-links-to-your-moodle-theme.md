@@ -2,7 +2,7 @@
 layout: post
 title: How to Add Social Media Links to Your Moodle Theme
 tags: [moodle, social-media, theme]
-thumbnail: '/images/posts/moodle-social/cover.jpg'
+image: '/images/posts/moodle-social/cover.jpg'
 ---
 
 Adding social media links to your Moodle site is something that will make it easier for students and visitors to easily follow, interact and find more information about your organization.

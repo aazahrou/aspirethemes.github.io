@@ -2,7 +2,7 @@
 layout: post
 title: How I Create Faster Themes
 tags: [tips, performance]
-thumbnail: '/images/posts/faster-themes/cover.jpg'
+image: '/images/posts/faster-themes/cover.jpg'
 description: In this post, I will share some tips I use to achive and do high performace themes
 ---
 

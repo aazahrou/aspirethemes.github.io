@@ -3,7 +3,7 @@ layout:       theme
 name:         East
 title:        East - Clean & Minimal WordPress Blog Theme
 date:         2016-4-28
-thumbnail:    images/themes/wordpress/east/preview.png
+image:        images/themes/wordpress/east/preview.png
 price:        49
 categories:   themes
 type:         WordPress

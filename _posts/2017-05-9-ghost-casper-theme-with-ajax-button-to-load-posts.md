@@ -2,7 +2,7 @@
 layout: post
 title: Ghost Casper Theme with AJAX Button to Load Posts
 tags: [ghost, themes, tips, ajax]
-thumbnail: '/images/posts/casper-ajax/cover.jpg'
+image: '/images/posts/casper-ajax/cover.jpg'
 ---
 
 Recently, I released the [Bold](https://themeforest.net/item/bold-blog-and-magazine-clean-ghost-theme/19663870) Ghost theme with a new feature to load new posts with AJAX button, which makes it very easy to load posts instantly without going to another page.

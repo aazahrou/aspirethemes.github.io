@@ -2,7 +2,7 @@
 layout: post
 title: Tools I Use to Create Premium WordPress and Ghost Themes
 tags: [Tools, WordPress, Ghost]
-thumbnail: '/images/posts/tools/tools.png'
+image: '/images/posts/tools/tools.png'
 ---
 
 At [Aspire Themes](http://aspirethemes.com/) I use a lot of tools to help me create WordPress, Ghost and Jekyll themes. Tools will range from development, design, services, hosting and automation tools for making my life easier as a one man shop, and It might be helpful for someone else in a way or another starting their journey as a theme creator or a developer; so I’m so happy to share them with you.

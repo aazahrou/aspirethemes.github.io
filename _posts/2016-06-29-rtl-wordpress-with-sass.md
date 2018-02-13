@@ -2,7 +2,7 @@
 layout: post
 title: Add RTL Support to WordPress Theme with Sass and Gulp
 tags: [RTL, Gulp, Sass, CSS, WordPress]
-thumbnail: '/images/posts/wordpress-rtl-with-gulp/thumbnail.png'
+image: '/images/posts/wordpress-rtl-with-gulp/thumbnail.png'
 ---
 
 At Aspire Themes, I always care and provide RTl CSS support for all WordPress themes, this helps many customers and website owners to provide and support more languages like Arabic or Hebrew, or any language that you can read from right to left (RTL).

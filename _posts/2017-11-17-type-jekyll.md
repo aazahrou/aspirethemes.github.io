@@ -2,7 +2,7 @@
 layout: post
 title: Type - Minimal and Clean Free Jekyll Theme
 tags: [jekyll, free, theme]
-thumbnail: '/images/posts/type-jekyll/cover.jpg'
+image: '/images/posts/type-jekyll/cover.jpg'
 ---
 
 I'm so happy to release a new free Jekyll blog theme. Type is a minimal and simple theme for Jekyll that focus on the content and clean typography.

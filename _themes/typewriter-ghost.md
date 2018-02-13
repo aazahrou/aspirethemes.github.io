@@ -3,7 +3,7 @@ layout:       theme
 name:         TypeWriter
 title:        TypeWriter
 date:         2015-12-20
-thumbnail:    images/themes/ghost/typewriter/preview.png
+image:        images/themes/ghost/typewriter/preview.png
 categories:   themes
 type:         Ghost
 body-class:   is-theme

@@ -2,7 +2,7 @@
 layout: post
 title: Create a link to a post in Markdown in Jekyll
 tags: [jekyll, markdown]
-thumbnail: '/images/posts/jekyll-links/jekyll.png'
+image: '/images/posts/jekyll-links/jekyll.png'
 ---
 
 Recently I got a support request from a client about how to link to an internal post with Jekyll. The use case for this when you are writing a post and you want to link to another post the Jekyll way without hard coding the full URL. I did some research and I found that Jekyll has a very elegant way to do that, and I would like to share this good tip with you.
