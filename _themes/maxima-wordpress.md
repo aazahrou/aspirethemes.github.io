@@ -11,7 +11,7 @@ body-class:   is-theme
 demo:         http://maxima-wordpress.aspirethemes.com/
 docs:         /docs/maxima-wordpress
 purchase:     https://themeforest.net/item/maxima-minimal-blog-magazine-wordpress-theme/19256614?ref=aspirethemes
-description:  The Simplest, Fastest WordPress Theme Ever
+description:  Minimal Blog & Magazine WordPress Theme
 seo:
   type:
     SoftwareApplication
