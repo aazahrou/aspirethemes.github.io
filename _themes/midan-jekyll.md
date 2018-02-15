@@ -3,7 +3,7 @@ layout:       theme
 name:         Midan
 title:        Midan - Clean and Fast Jekyll Blog Theme
 date:         2016-9-25
-image:        images/themes/jekyll/midan/preview.png
+image:        /images/themes/jekyll/midan/preview.png
 price:        39
 categories:   themes
 type:         Jekyll

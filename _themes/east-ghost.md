@@ -3,7 +3,7 @@ layout:       theme
 name:         East
 title:        East - Blog and Multipurpose Clean Ghost Theme
 date:         2016-2-6
-image:        images/themes/ghost/east/preview.png
+image:        /images/themes/ghost/east/preview.png
 price:        39
 categories:   themes
 type:         Ghost

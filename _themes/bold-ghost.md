@@ -3,7 +3,7 @@ layout:       theme
 name:         Bold
 title:        Bold - Blog and Magazine Clean Ghost Theme
 date:         2017-4-8
-image:        images/themes/ghost/bold/preview.png
+image:        /images/themes/ghost/bold/preview.png
 price:        39
 categories:   themes
 type:         Ghost
