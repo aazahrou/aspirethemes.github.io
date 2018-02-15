@@ -27,19 +27,20 @@ Current Version: 1.0.7 - 18 May 2017
 Maxima theme comes with different customizations in the `_config.yml` file:
 
 ```sh
+# Site settings
 title:              Maxima
 logo:               # Logo image URL
 email:              your-email@domain.com
 description:        Minimal Blog & Magazine Jekyll Theme
 baseurl:            '' # The subpath of your site, e.g. /blog
-url:                'https://maxima-jekyll.aerobatic.io' # The base hostname & protocol for your site
+url:                'http://maxima-jekyll.aspirethemes.com' # The base hostname & protocol for your site
 github_username:    aspirethemes
 twitter_username:   aspirethemes
 instagram_username: aspirethemes
 
 markdown:  kramdown
 permalink: pretty
-paginate:  12
+paginate:  13
 sass:
   style: compressed
 
@@ -71,7 +72,7 @@ defaults:
 authors:
   ahmad:
     name:             Ahmad Ajmi
-    bio:              Author & developer of Aspire Themes. Minimalist. I love creating clean and minimal websites.Technical writer at SitePoint.
+    bio:              Author & developer of Aspire Themes
     gravatar:         https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
     email:            info@aspirethemes.com
     website:          http://aspirethemes.com

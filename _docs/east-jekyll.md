@@ -28,11 +28,12 @@ Current Version: 1.1.6 - 11 Feb 2018
 East theme comes with different customizations in the `_config.yml` file:
 
 ```sh
+# Site settings
 title:            East
 email:            your-email@domain.com
 description:      Minimal and Clean Blog Jekyll Theme
 baseurl:          '' # The subpath of your site, e.g. /blog
-url:              'https://east-jekyll.aerobatic.io' # The base hostname & protocol for your site
+url:              'http://east-jekyll.aspirethemes.com/' # The base hostname & protocol for your site
 github_username:  aspirethemes
 twitter_username: aspirethemes
 
@@ -52,6 +53,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+sass:
+  style: compressed
+
 # Tags
 tag_page_dir:         tag
 tag_page_layout:      tag_page
@@ -68,8 +72,8 @@ defaults:
 authors:
   ahmad:
     name:             Ahmad Ajmi
-    bio:              Author & developer of Aspire Themes.
-    gravatar:         https://s.gravatar.com/avatar/f83
+    bio:              Author & developer of Aspire Themes
+    gravatar:         https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
     email:            info@aspirethemes.com
     website:          http://aspirethemes.com
     github_username:  ahmadajmi

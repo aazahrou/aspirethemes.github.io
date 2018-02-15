@@ -31,14 +31,14 @@ Aspire theme comes with different customizations in the `_config.yml` file:
 
 ```sh
 # Site settings
-title:              Aspire
-logo:               # Logo image URL
-description:        Clean News & Magazine Jekyll Theme
-baseurl:            '' # The subpath of your site, e.g. /blog
-url:                'http://aspire-jekyll.aspirethemes.com' # The base hostname & protocol for your site
-twitter:            https://twitter.com/aspirethemes
-facebook:           https://www.facebook.com/aspirethemes/
-instagram:          https://www.instagram.com/aspirethemes
+title:       Aspire
+logo:        # Logo Image URL
+description: Clean News & Magazine Jekyll Theme
+baseurl:     '' # The subpath of your site, e.g. /blog
+url:         http://aspire-jekyll.aspirethemes.com # The base hostname & protocol for your site
+twitter:     https://twitter.com/aspirethemes
+facebook:    https://www.facebook.com/aspirethemes
+instagram:   https://www.instagram.com/aspirethemes
 
 markdown:  kramdown
 permalink: pretty
@@ -59,9 +59,9 @@ exclude:
   - Gemfile.lock
 
 # Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
+tag_page_dir:        tag
+tag_page_layout:     tag_page
+tag_permalink_style: pretty
 
 # Pages path
 defaults:
@@ -73,13 +73,13 @@ defaults:
 # Authors
 authors:
   ahmad:
-    name:             Ahmad Ajmi
-    bio:              Author & developer of Aspire Themes. Minimalist. I love creating clean and minimal websites.Technical writer at SitePoint.
-    gravatar:         https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
-    email:            info@aspirethemes.com
-    website:          http://aspirethemes.com
-    github_username:  ahmadajmi
-    twitter_username: ahmadajmi
+    name:     Ahmad Ajmi
+    bio:      Author & developer of Aspire Themes
+    gravatar: https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
+    email:    info@aspirethemes.com
+    website:  http://aspirethemes.com
+    github:   https://www.github.com/aspirethemes
+    twitter:  https://twitter.com/aspirethemes
 ```
 
 ---

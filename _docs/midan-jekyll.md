@@ -27,11 +27,12 @@ Current Version: 1.1.5 - 17 September 2017
 Midan theme comes with different customizations in the `_config.yml` file:
 
 ```sh
+# Site settings
 title:            Midan
 email:            your-email@domain.com
 description:      Clean and Fast Jekyll Blog Theme
 baseurl:          '' # The subpath of your site, e.g. /blog
-url:              'https://midan-jekyll.aerobatic.io' # The base hostname & protocol for your site
+url:              'http://midan-jekyll.aspirethemes.com' # The base hostname & protocol for your site
 github_username:  aspirethemes
 twitter_username: aspirethemes
 
@@ -69,7 +70,7 @@ defaults:
 authors:
   ahmad:
     name:             Ahmad Ajmi
-    bio:              Author & developer of Aspire Themes. Minimalist. I love creating clean and minimal websites.Technical writer at SitePoint.
+    bio:              Author & developer of Aspire Themes
     gravatar:         https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
     email:            info@aspirethemes.com
     website:          http://aspirethemes.com
