@@ -8,9 +8,10 @@ price:        49
 categories:   themes
 type:         WordPress
 body-class:   is-theme
-demo:         http://real-wordpress.aspirethemes.com/
+demo:         http://real-wordpress.aspirethemes.com
 docs:         /docs/real-wordpress
 purchase:     https://themeforest.net/item/real-blog-and-magazine-clean-wordpress-theme/18125810?ref=aspirethemes
+preview:      http://preview.themeforest.net/item/real-blog-and-magazine-clean-wordpress-theme/full_screen_preview/18125810?ref=aspirethemes
 description:  Real is a modern, clean, and minimal WordPress theme for your next blog
 seo:
   type:

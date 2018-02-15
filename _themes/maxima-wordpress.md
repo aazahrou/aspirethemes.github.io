@@ -8,9 +8,10 @@ price:        49
 categories:   themes
 type:         WordPress
 body-class:   is-theme
-demo:         http://maxima-wordpress.aspirethemes.com/
+demo:         http://maxima-wordpress.aspirethemes.com
 docs:         /docs/maxima-wordpress
 purchase:     https://themeforest.net/item/maxima-minimal-blog-magazine-wordpress-theme/19256614?ref=aspirethemes
+preview:      http://preview.themeforest.net/item/maxima-minimal-blog-magazine-wordpress-theme/full_screen_preview/19256614?ref=aspirethemes
 description:  Minimal Blog & Magazine WordPress Theme
 seo:
   type:

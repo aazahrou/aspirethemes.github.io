@@ -11,6 +11,7 @@ body-class:   is-theme
 demo:         http://maxima.aspirethemes.com/
 docs:         /docs/maxima-ghost
 purchase:     https://themeforest.net/item/maxima-minimal-blog-magazine-ghost-theme/19143684?ref=aspirethemes
+preview:      http://preview.themeforest.net/item/maxima-minimal-blog-magazine-ghost-theme/full_screen_preview/19143684?ref=aspirethemes
 description:  The Simplest, Fastest Ghost Theme Ever
 seo:
   type:

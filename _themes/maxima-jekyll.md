@@ -8,9 +8,10 @@ price:        39
 categories:   themes
 type:         Jekyll
 body-class:   is-theme
-demo:         http://maxima-jekyll.aspirethemes.com/
+demo:         http://maxima-jekyll.aspirethemes.com
 docs:         /docs/maxima-jekyll
 purchase:     https://themeforest.net/item/maxima-minimal-blog-magazine-ghost-theme/19164859?ref=aspirethemes
+preview:      http://preview.themeforest.net/item/maxima-minimal-blog-magazine-ghost-theme/full_screen_preview/19164859?ref=aspirethemes
 description:  Maxima is a clean, minimal, modern theme that focus on content for Jekyll
 seo:
   type:

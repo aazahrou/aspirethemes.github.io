@@ -7,8 +7,9 @@ image:        /images/themes/ghost/typewriter/preview.png
 categories:   themes
 type:         Ghost
 body-class:   is-theme
-demo:         http://typewriter.aspirethemes.com/
+demo:         http://typewriter.aspirethemes.com
 purchase:     https://github.com/aspirethemes/typewriter
+preview:      http://typewriter.aspirethemes.com
 description:  TypeWriter focuses on typography, white space, and gives your readers a better reading experience
 seo:
   type:

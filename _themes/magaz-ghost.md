@@ -8,9 +8,10 @@ price:        39
 categories:   themes
 type:         Ghost
 body-class:   is-theme
-demo:         http://magaz.aspirethemes.com/
+demo:         http://magaz.aspirethemes.com
 docs:         /docs/magaz-ghost
 purchase:     http://themeforest.net/item/magaz-magazine-and-multipurpose-clean-ghost-theme/14907507?ref=aspirethemes
+preview:      http://preview.themeforest.net/item/magaz-magazine-and-multipurpose-clean-ghost-theme/full_screen_preview/14907507?ref=aspirethemes
 description:  Magaz is a modern, clean, and content and image focus theme for Ghost
 seo:
   type:

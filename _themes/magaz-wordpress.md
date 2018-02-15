@@ -7,9 +7,10 @@ image:        /images/themes/wordpress/magaz/preview.png
 categories:   themes
 type:         WordPress
 body-class:   is-theme
-demo:         http://magaz-wordpress.aspirethemes.com/
+demo:         http://magaz-wordpress.aspirethemes.com
 docs:         /docs/magaz-wordpress
 purchase:     https://github.com/aspirethemes/magaz
+preview:      http://magaz-wordpress.aspirethemes.com
 description:  Magaz is a modern, clean, minimal, content and image focus theme for WordPress
 seo:
   type:

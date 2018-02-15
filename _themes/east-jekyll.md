@@ -8,9 +8,10 @@ price:        39
 categories:   themes
 type:         Jekyll
 body-class:   is-theme
-demo:         http://east-jekyll.aspirethemes.com/
+demo:         http://east-jekyll.aspirethemes.com
 docs:         /docs/east-jekyll
 purchase:     https://themeforest.net/item/east-minimal-and-clean-jekyll-blog-theme/16252756?ref=aspirethemes
+preview:      http://preview.themeforest.net/item/east-minimal-and-clean-jekyll-blog-theme/full_screen_preview/16252756?ref=aspirethemes
 description:  East is a clean, minimal, modern theme that focus on content for Jekyll
 seo:
   type:

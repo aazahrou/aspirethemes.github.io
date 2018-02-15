@@ -8,9 +8,10 @@ price:        39
 categories:   themes
 type:         Jekyll
 body-class:   is-theme
-demo:         http://aspire-jekyll.aspirethemes.com/
+demo:         http://aspire-jekyll.aspirethemes.com
 docs:         /docs/maxima-jekyll
 purchase:     https://themeforest.net/item/aspire-clean-news-magazine-jekyll-theme/19847658?ref=aspirethemes
+preview:      http://preview.themeforest.net/item/aspire-clean-news-magazine-jekyll-theme/full_screen_preview/19847658?ref=aspirethemes
 description:  Aspire is a modern, clean, and content and image focus theme for Jekyll
 seo:
   type:

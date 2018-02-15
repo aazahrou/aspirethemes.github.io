@@ -8,9 +8,10 @@ price:        29
 categories:   themes
 type:         Ghost
 body-class:   is-theme
-demo:         http://midan.aspirethemes.com/
+demo:         http://midan.aspirethemes.com
 docs:         /docs/midan-ghost
 purchase:     https://gum.co/gNEIH
+preview:      http://midan.aspirethemes.com
 description:  Midan is a clean, minimal, modern theme that focuses on content for Ghost
 seo:
   type:

@@ -8,9 +8,10 @@ price:        39
 categories:   themes
 type:         Ghost
 body-class:   is-theme
-demo:         http://nubia.aspirethemes.com/
+demo:         http://nubia.aspirethemes.com
 docs:         /docs/nubia-ghost
 purchase:     https://themeforest.net/item/nubia-responsive-multipurpose-ghost-theme/21076246?ref=aspirethemes
+preview:      http://preview.themeforest.net/item/nubia-responsive-multipurpose-ghost-theme/full_screen_preview/21076246?ref=aspirethemes
 description:  Make Your Blog Beautiful & Make It Fast
 seo:
   type:

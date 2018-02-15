@@ -8,9 +8,10 @@ price:        39
 categories:   themes
 type:         Ghost
 body-class:   is-theme
-demo:         http://bold.aspirethemes.com/
+demo:         http://bold.aspirethemes.com
 docs:         /docs/bold-ghost
-purchase:     https://themeforest.net/item/bold-blog-and-magazine-clean-ghost-theme/19663870
+purchase:     https://themeforest.net/item/bold-blog-and-magazine-clean-ghost-theme/19663870?ref=aspirethemes
+preview:      http://preview.themeforest.net/item/bold-blog-and-magazine-clean-ghost-theme/full_screen_preview/19663870?ref=aspirethemes
 description:  Blog and Magazine Clean Ghost Theme
 seo:
   type:

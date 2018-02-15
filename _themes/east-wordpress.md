@@ -8,9 +8,10 @@ price:        49
 categories:   themes
 type:         WordPress
 body-class:   is-theme
-demo:         http://east-wordpress.aspirethemes.com/
+demo:         http://east-wordpress.aspirethemes.com
 docs:         /docs/east-wordpress
 purchase:     http://themeforest.net/item/east-clean-minimal-wordpress-blog-theme/15349397?ref=aspirethemes
+preview:      http://preview.themeforest.net/item/east-clean-minimal-wordpress-blog-theme/full_screen_preview/15349397?ref=aspirethemes
 description:  East is a modern, clean, and minimal WordPress theme for your next blog
 seo:
   type:
