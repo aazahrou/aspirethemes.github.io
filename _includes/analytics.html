@@ -22,6 +22,13 @@ var trackOutboundLink = function(url) {
      'hitCallback': function(){document.location = url;}
   });
 }
+
+var trackHomeHeroButton = function(url) {
+  ga('send', 'event', 'HomeHeroButton', 'Click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+  });
+}
 </script>
 
 
