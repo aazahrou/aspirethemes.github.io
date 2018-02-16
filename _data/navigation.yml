@@ -1,9 +1,5 @@
-- name: About
-  link: /about
 - name: Themes
   link: /themes
-- name: Showcase
-  link: /showcase
 - name: Documentation
   link: /docs
 - name: Blog
