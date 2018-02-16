@@ -8,9 +8,15 @@ description: Aspire Themes is a place for clean and minimal themes for WordPress
 {% assign themes = site.themes | sort: 'date' | reverse %}
 
 <div class='c-home-hero'>
-  <div class='o-grid'>
-    <div class='o-grid__col'>
-      <h1 class='c-home-hero__tagline'>{{ site.description }}</h1>
+  <div class='o-grid c-home-hero__content'>
+    <div class='o-grid__col o-grid__col--2-4-m'>
+      <h1 class='c-home-hero__tagline'>Get Ready to Build a Better and Faster Blog</h1>
+      <p class='c-home-hero__description font-medium'>Premium blog themes for WordPress, Ghost and Jekyll. Trusted by 600+ happy customers</p>
+      <a class='c-btn c-btn--primary' href='/themes'>Browse Themes</a>
+    </div>
+
+    <div class='o-grid__col o-grid__col--2-4-m'>
+      <img src='images/assets/home-hero.svg' alt='Hero Image' class='js-fadein'>
     </div>
   </div>
 </div>

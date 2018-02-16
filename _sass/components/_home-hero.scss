@@ -4,28 +4,38 @@
 
 .c-home-hero {
   padding: quadruple($base-spacing-unit) 0;
-  text-align: center;
   background-color: $bg-gray;
+
+  @include mq($until: tablet) {
+    text-align: center;
+  }
 
   @include mq($from: tablet) {
     padding: double(quadruple($base-spacing-unit)) 0;
   }
 
-  @include mq($from: desktop) {
-    padding: 180px 0;
-  }
+  @include mq($from: tablet) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  @include mq($from: large-desktop) {
-    padding: 250px 0;
+    &__content {
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
   }
 
   &__tagline {
-    margin-bottom: 0;
-    font-size: $font-size-base;
+    font-size: double($font-size-tiny);
 
     @include mq($from: tablet) {
-      letter-spacing: 1px;
-      font-size: double($font-size-tiny);
+      font-size: double($font-size-medium);
+    }
+
+    @include mq($from: desktop) {
+      font-size: double($font-size-base);
+      font-weight: $font-weight-bold;
     }
   }
 }
