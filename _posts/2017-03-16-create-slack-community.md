@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Create Your Own Public Slack Chat Community with Slackin
+title: Create Your Own Public Slack Chat Community With Slackin
 tags: [community, tips, slack]
 image: '/images/posts/slack/slakin-banner.png'
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Add a Contact Form to Your Ghost Blog
+title: How to Add A Contact Form to Your Ghost Blog
 tags: [Ghost, contact]
 image: '/images/posts/ghost-contact/cover.jpg'
 description: In this post, I will go through adding a contact form, from creating the contact page, add the form, and then add the page to the site navigation.

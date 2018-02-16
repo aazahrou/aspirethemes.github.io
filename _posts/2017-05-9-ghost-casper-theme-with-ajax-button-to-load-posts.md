@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ghost Casper Theme with AJAX Button to Load Posts
+title: Ghost Casper Theme With AJAX Button to Load Posts
 tags: [ghost, themes, tips, ajax]
 image: '/images/posts/casper-ajax/cover.jpg'
 ---

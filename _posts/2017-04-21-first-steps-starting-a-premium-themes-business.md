@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First Steps Starting a Premium Themes Business
+title: First Steps Starting A Premium Themes Business
 tags: [business, themes, tips, themeforest]
 image: '/images/posts/start-business/cover.png'
 ---
