@@ -6,7 +6,7 @@ categories: docs
 platform: Jekyll
 ---
 
-Current Version: 1.0 - 5 Jan 2018
+Current Version: 1.0.1 - 17 Feb 2018
 
 ---
 
@@ -179,7 +179,7 @@ First, you will need to get your account `userId` and `accessToken` from the fol
 - userId: [smashballoon.com/instagram-feed/find-instagram-user-id](https://smashballoon.com/instagram-feed/find-instagram-user-id/)
 - accessToken: [instagram.pixelunion.net](http://instagram.pixelunion.net/)
 
-Second, open the `js/instagram.js` file and replace the `userId` and `accessToken` values.
+Second, open the `js/app.js` file and replace the `userId` and `accessToken` values (line 162 & 163).
 
 ```js
 var instagramFeed = new Instafeed({
