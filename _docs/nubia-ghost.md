@@ -42,7 +42,7 @@ Current Version: 1.0.3 - 12 Feb 2018
 
 ### Enable the Public API
 
-Public API is important for some functionality like search, tags page, and subscribe form to work properly. You can enable the Public API from Ghost admin. Go to `Labs > Beta features` section and check the *Public API* mark to enable it.
+The Public API is important for some functionality like search, tags page, and the subscribe form to work properly. You can enable the Public API from the Ghost admin. Go to `Labs > Beta features` section and check the *Public API* mark to enable it.
 
 ![enable-public-api](/images/docs/ghost/shared/beta-features.png)
 
@@ -50,7 +50,7 @@ Public API is important for some functionality like search, tags page, and subsc
 
 ### Static Pages
 
-In order to create a static page, you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
+In order to create a static page, you can create a new post, and once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
 
 ![static page](/images/docs/ghost/shared/staticpage.png)
 
@@ -58,7 +58,7 @@ In order to create a static page, you create a new post, just like you would any
 
 ### Navigation
 
-You can add, edit, delete and reorder menu links on your Ghost blog, directly from the navigation tool within the blog admin area, located at **/ghost/settings/navigation/**.
+You can add, edit, delete and reorder menu links on your Ghost blog directly from the navigation tool within the blog admin area, located at `/ghost/settings/navigation/`.
 
 ![navigation menu](/images/docs/ghost/shared/navigation-edit.png)
 
@@ -66,7 +66,7 @@ To include a static page on your navigation menu, first, type the name of the pa
 
 ![label field](/images/docs/ghost/shared/label-field.png)
 
-Next, click inside the **URL field** of the menu item. The blog URL will auto-populate with http://yourdomain.com/. You will need to add in the page slug after the final **/**. Once satisfied with your page link, click the blue **Save button** to add the page to the navigation menu.
+Next, click inside the **URL field** of the menu item. The blog URL will auto-populate with `http://yourdomain.com/`. You will need to add in the page slug after the final **/**. Once satisfied with your page link, click the blue **Save** button to add the page to the navigation menu.
 
 ---
 
