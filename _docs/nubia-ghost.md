@@ -182,7 +182,7 @@ You can control how much images to show by changing the `limit` number. Theme de
 If you want to add an advertisement widget to your sidebar, this widget is the way to go. This will enable you to add an image and a URL associated with it, all you need to do is:
 
 - Replace your custom image with the image located in the theme directory `assets/images/advertise-image.jpg`.
-- Update `partials/sidebar/widget-advertise.hbs` file with the URL (`href value`) and add an alternative text to the image (`alt` value) like the following image.
+- Update `partials/sidebar/widget-advertise.hbs` file with the URL (`href` value) and add an alternative text to the image (`alt` value) like the following image.
 
 ![Advertise Widget Code](/images/docs/ghost/nubia/advertise-widget-code.png)
 
