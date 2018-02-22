@@ -25,4 +25,8 @@
       margin-top: double($base-spacing-unit);
     }
   }
+
+  &__title .icon {
+    overflow: inherit;
+  }
 }
