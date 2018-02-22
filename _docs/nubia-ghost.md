@@ -10,7 +10,7 @@ Current Version: 1.0.3 - 12 Feb 2018
 ---
 
 * [Theme Installation](#theme-installation)
-* [Enable the Public API](#enable-the-public-api)
+* [Enable the Ghost Public API](#enable-the-ghost-public-api)
 * [Static Pages](#static-pages)
 * [Navigation](#navigation)
 * [Search](#search)
@@ -19,6 +19,7 @@ Current Version: 1.0.3 - 12 Feb 2018
 * [Contact Page](#contact-page)
 * [Disqus Comments](#disqus-comments)
 * [Instagram](#instagram)
+* [Advertise Widget](#advertise-widget)
 * [Posts Per Page](#posts-per-page)
 * [Related Posts](#related-posts)
 * [Google Analytics](#google-analytics)
@@ -33,16 +34,16 @@ Current Version: 1.0.3 - 12 Feb 2018
 ### Theme Installation
 
 * Log into the admin section of your Ghost blog `yourblog.com/ghost`.
-* Select `Design` from the left-hand side of your admin area and go to the **Themes** section.
-* Click on the `Upload a Theme` green button.
+* Select **Design** from the left-hand side of your admin area and go to the **Themes** section.
+* Click on the **Upload a Theme** green button.
 * An upload box will open, then choose the theme (*nubia.zip*) within the downloaded package.
-* Once uploaded, click on `Activate now` button to activate the theme immediately or `Close` if you want to activate it later.
+* Once uploaded, click on **Activate now** button to activate the theme immediately or **Close** if you want to activate it later.
 
 ---
 
-### Enable the Public API
+### Enable the Ghost Public API
 
-The Public API is important for some functionality like search, tags page, and the subscribe form to work properly. You can enable the Public API from the Ghost admin. Go to `Labs > Beta features` section and check the *Public API* mark to enable it.
+The Public API is important for some functionality like search, tags page, and the subscribe form to work properly. You can enable the Public API from the Ghost admin. Go to **Labs > Beta features** section and check the **Public API** mark to enable it.
 
 ![enable-public-api](/images/docs/ghost/shared/beta-features.png)
 
@@ -50,23 +51,23 @@ The Public API is important for some functionality like search, tags page, and t
 
 ### Static Pages
 
-In order to create a static page, you can create a new post, and once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
+In order to create a static page, we can start creating a new story, and while we are on the story editor page, there is a cog wheel icon (<span data-icon='ei-gear' data-size='s' class='u-align-middle'></span>) at the top right. Click on that icon, and check the **Turn this post into a page** box. This will convert your story to a static page.
 
-![static page](/images/docs/ghost/shared/staticpage.png)
+![static page](/images/docs/ghost/nubia/staticpage.png)
 
 ---
 
 ### Navigation
 
-You can add, edit, delete and reorder menu links on your Ghost blog directly from the navigation tool within the blog admin area, located at `/ghost/settings/navigation/`.
+You can add, edit, delete and reorder menu links on your Ghost blog directly from the navigation tool within the blog admin area, located at `ghost/#/settings/design`.
 
-![navigation menu](/images/docs/ghost/shared/navigation-edit.png)
+![navigation menu](/images/docs/ghost/nubia/navigation-edit.png)
 
 To include a static page on your navigation menu, first, type the name of the page as you'd like it to appear on your menu in the label field.
 
 ![label field](/images/docs/ghost/shared/label-field.png)
 
-Next, click inside the **URL field** of the menu item. The blog URL will auto-populate with `http://yourdomain.com/`. You will need to add in the page slug after the final **/**. Once satisfied with your page link, click the blue **Save** button to add the page to the navigation menu.
+Next, click on the **URL field** of the menu item and we can find that the blog URL is already auto-populate for us. We will need to add the page slug after the final **/**. Once satisfied with our page configurations, clicking the blue **Save** button will add the page to the navigation menu.
 
 ---
 
@@ -81,12 +82,12 @@ For the search to work properly, please make sure that the [Public API](#enable-
 To create the tags page:
 
 - Enable the [Public API](#enable-the-public-api).
-- Create a new post and call it `Tags` for example, and make sure that the POST URL is `tags`.
-- Click the `Turn this post into a static page` checkbox.
+- Create a new story and call it **Tags** for example, and make sure that the POST URL is `tags`.
+- Click the **Turn this post into a static page** checkbox.
 - Publish the page.
 - To add the page to the navigation, please check the [Navigation](#navigation) section above.
 
-![static page](/images/docs/ghost/shared/tags-page.png)
+![static page](/images/docs/ghost/nubia/tags-page.png)
 
 ---
 
@@ -95,8 +96,8 @@ To create the tags page:
 To create the Authors page:
 
 - Enable the [Public API](#enable-the-public-api).
-- Create a new post and call it `Authors` for example, and make sure that the POST URL is `authors`.
-- Click the `Turn this post into a static page` checkbox.
+- Create a new post and call it **Authors** for example, and make sure that the POST URL is `authors`.
+- Click the **Turn this post into a static page** checkbox.
 - Publish the page.
 - To add the page to the navigation, please check the [Navigation](#navigation) section above.
 
@@ -108,9 +109,9 @@ To create the Authors page:
 
 To create the Contact page:
 
-- Create a new post and call it `Contact` for example.
+- Create a new post and call it **Contact** for example.
 - Add your content and the contact form code using [FORMSPREE](https://formspree.io/) as a service. Please check the code example below.
-- Click the `Turn this post into a static page` checkbox.
+- Click the **Turn this post into a static page** checkbox.
 - Publish the page.
 - To add the page to the navigation, please check the [Navigation](#navigation) section above.
 
@@ -171,6 +172,23 @@ var instagramFeed = new Instafeed({
 ```
 
 You can control how much images to show by changing the `limit` number. Theme default is set to `6` images.
+
+---
+
+### Advertise Widget
+
+![Advertise Widget](/images/docs/ghost/nubia/advertise-widget.png)
+
+If you want to add an advertisement widget to your sidebar, this widget is the way to go. This will enable you to add an image and a URL associated with it, all you need to do is:
+
+- Replace your custom image with the image located in the theme directory `assets/images/advertise-image.jpg`.
+- Update `partials/sidebar/widget-advertise.hbs` file with the URL (`href value`) and add an alternative text to the image (`alt` value) like the following image.
+
+![Advertise Widget Code](/images/docs/ghost/nubia/advertise-widget-code.png)
+
+If you want to remove the Advertise Widget, you can remove or coment the {% raw %}`{{> sidebar/widget-advertise}}`{% endraw %} line inside the `partials/sidebar.hbs` file.
+
+![Sidebar Partials Code](/images/docs/ghost/nubia/sidebar-partials-code.png)
 
 ---
 
