@@ -4,7 +4,7 @@
       <div class='js-fadein c-showcase-card__image' style='background-image: url(/images/showcases/{{ showcase.type | downcase }}/{{ showcase.theme }}/{{ showcase.screenshot }})'></div>
     </a>
 
-    <a class='c-showcase-card__title' href='{{ showcase.url }}' target='_blank'>{{ showcase.title }}</a>
+    <a class='c-showcase-card__title u-font-bold' href='{{ showcase.url }}' target='_blank'>{{ showcase.title }}</a>
 
     <a class='c-showcase-card__theme' href='{{ site.baseurl }}/themes/{{ showcase.theme }}-{{ showcase.type }}' target='_blank'>{{ showcase.theme | capitalize }} &#183; {{ showcase.type }}</a></a>
   </div>

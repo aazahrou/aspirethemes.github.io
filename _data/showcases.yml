@@ -76,12 +76,6 @@
   type:       WordPress
   screenshot: expertdb.png
 
-- title:      Mdwnon
-  url:        http://mdwnon.com/Blog/
-  theme:      aspire
-  type:       WordPress
-  screenshot: mdwnon.png
-
 - title:      Anaesthesie
   url:        http://www.anaesthesie.news/
   theme:      aspire
